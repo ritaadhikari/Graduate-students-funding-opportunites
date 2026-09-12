@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "lastUpdated": "2026-09-12"
+  },
+  "sources": [
+    {
+      "name": "ACM-W Scholarships",
+      "url": "https://women.acm.org/scholarships/"
+    },
+    {
+      "name": "SIGCHI Gary Marsden Awards",
+      "url": "https://sigchi.org/resources/gary-marsden-travel-awards/"
+    },
+    {
+      "name": "USENIX Grants",
+      "url": "https://www.usenix.org/conferences/grants"
+    },
+    {
+      "name": "SIGWEB Fair Access",
+      "url": "https://www.sigweb.org/community/student-travel-grant"
+    },
+    {
+      "name": "SIGHPC Travel Grants",
+      "url": "https://www.sighpc.org/opportunities/travel-grants"
+    },
+    {
+      "name": "AISB Student Grants",
+      "url": "https://aisb.org.uk/student-grants/"
+    },
+    {
+      "name": "NeurIPS Financial Assistance",
+      "url": "https://neurips.cc/Conferences/2026/FinancialAssistance"
+    },
+    {
+      "name": "ICLR DEI/Financial Assistance",
+      "url": "https://iclr.cc/public/DiversityInclusion"
+    },
+    {
+      "name": "ELLIS Mobility Programs",
+      "url": "https://ellis.eu/research/phd-postdoc/mobility-programs"
+    },
+    {
+      "name": "EurAI Applications",
+      "url": "https://eurai.org/applications/travel_grant"
+    },
+    {
+      "name": "Google Research Programs",
+      "url": "https://research.google/programs-and-events/"
+    },
+    {
+      "name": "Microsoft Research Academic Programs",
+      "url": "https://www.microsoft.com/en-us/research/academic-program/"
+    },
+    {
+      "name": "NVIDIA Graduate Fellowships",
+      "url": "https://research.nvidia.com/graduate-fellowships"
+    },
+    {
+      "name": "Adobe Research Fellowships",
+      "url": "https://research.adobe.com/"
+    },
+    {
+      "name": "ACM SIGSAC CCS",
+      "url": "https://www.sigsac.org/ccs/CCS2026/"
+    },
+    {
+      "name": "ACM SIGCOMM",
+      "url": "https://conferences.sigcomm.org/"
+    },
+    {
+      "name": "ACL Events",
+      "url": "https://www.aclweb.org/portal/"
+    },
+    {
+      "name": "AAAI",
+      "url": "https://aaai.org/conference/aaai/"
+    },
+    {
+      "name": "IJCAI",
+      "url": "https://www.ijcai.org/"
+    },
+    {
+      "name": "ECML PKDD",
+      "url": "https://ecmlpkdd.org/"
+    }
+  ]
+}

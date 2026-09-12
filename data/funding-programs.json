@@ -1,0 +1,1618 @@
+{
+  "meta": {
+    "title": "Global Graduate ML/AI Funding Tracker",
+    "lastChecked": "2026-09-12",
+    "verifiedPrograms": 44,
+    "scope": "Graduate-student-friendly conference grants, umbrella travel grants, and research programs that can fund conference/research travel. Accepted-paper-only grants are excluded from the default dataset.",
+    "method": "Official-source verification + conservative automatic deadline updates + separate discovery queue for new candidates.",
+    "disclaimer": "No public registry can guarantee every program in every country. This tracker is designed to expand continuously while keeping verified and unverified information separate."
+  },
+  "programs": [
+    {
+      "id": "acm-w-conference-scholarship",
+      "name": "ACM-W Computer Science Research Conference Scholarship",
+      "provider": "ACM-W",
+      "programType": "Umbrella travel grant",
+      "field": "Computer Science / ML / AI",
+      "destination": "Any eligible CS research conference worldwide",
+      "destinationCountry": "Any",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Undergraduate / Master's / PhD",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "recurring",
+      "recurrence": {
+        "monthDays": [
+          "02-15",
+          "04-15",
+          "06-15",
+          "08-15",
+          "10-15",
+          "12-15"
+        ]
+      },
+      "amount": "Up to $600 intra-continental; up to $1,200 intercontinental",
+      "coverage": [
+        "Conference travel",
+        "Some ACM SIG conferences may also provide complimentary registration/mentoring"
+      ],
+      "notCovered": [
+        "Award may not cover the full trip"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No paper or presentation is required.",
+      "eligibility": "Women students in computer science and related programs; conference may be ACM or non-ACM.",
+      "membership": "No ACM membership requirement stated on the scholarship page.",
+      "payment": "Scholarship award; conference-specific arrangements may vary.",
+      "official": "https://women.acm.org/scholarships/",
+      "status": "recurring",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://women.acm.org/scholarships/",
+        "deadlineLabels": [
+          "upcoming deadline",
+          "applications must be submitted by"
+        ]
+      }
+    },
+    {
+      "id": "sigchi-gmta",
+      "name": "SIGCHI Gary Marsden Travel Awards",
+      "provider": "ACM SIGCHI",
+      "programType": "Umbrella travel grant",
+      "field": "HCI / Human-AI / Interactive ML",
+      "destination": "SIGCHI conferences",
+      "destinationCountry": "Any",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Undergraduate / Graduate / Early career",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "recurring",
+      "recurrence": {
+        "monthDays": [
+          "01-09",
+          "02-09",
+          "03-09",
+          "05-09",
+          "07-09",
+          "09-09",
+          "11-09"
+        ],
+        "time": "23:59",
+        "offset": "-12:00"
+      },
+      "amount": "Varies by award",
+      "coverage": [
+        "Travel support for attending SIGCHI conferences"
+      ],
+      "notCovered": [
+        "Exact amount and reimbursable categories depend on the award call"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No accepted-paper requirement is stated for the general award; applicants choose a SIGCHI conference and apply early.",
+      "eligibility": "SIGCHI members who are students, early-career researchers, or facing financial hardship/lack of institutional support.",
+      "membership": "SIGCHI membership required.",
+      "payment": "Award terms vary; consult the current call.",
+      "official": "https://sigchi.org/resources/gary-marsden-travel-awards/",
+      "status": "recurring",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://sigchi.org/resources/gary-marsden-travel-awards/",
+        "deadlineLabels": [
+          "deadlines"
+        ]
+      }
+    },
+    {
+      "id": "usenix-student-grants",
+      "name": "USENIX Student Grants Program",
+      "provider": "USENIX",
+      "programType": "Umbrella conference grant",
+      "field": "Systems / Security / Privacy / ML systems",
+      "destination": "Most USENIX conferences and workshops",
+      "destinationCountry": "Conference dependent",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Full-time students",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "event-specific",
+      "amount": "Varies by event",
+      "coverage": [
+        "Complimentary registration",
+        "Travel assistance",
+        "Accommodation assistance"
+      ],
+      "notCovered": [
+        "Student grants rarely cover every travel/hotel expense"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "Presenting is not required; presenters are eligible but not guaranteed support.",
+      "eligibility": "Full-time students at accredited institutions who otherwise lack funding.",
+      "membership": "USENIX membership is not stated as a requirement.",
+      "payment": "Registration code + travel/lodging grant paid after attendance.",
+      "official": "https://www.usenix.org/conferences/grants",
+      "status": "watch",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://www.usenix.org/conferences/grants",
+        "deadlineLabels": [
+          "grant applications due",
+          "applications due"
+        ]
+      }
+    },
+    {
+      "id": "sigweb-fair-access",
+      "name": "SIGWEB Fair Access Travel Grants",
+      "provider": "ACM SIGWEB",
+      "programType": "Umbrella travel grant",
+      "field": "Web / Data / Human-AI / Information systems",
+      "destination": "SIGWEB-supported conferences (e.g. WSDM, CIKM, UMAP, Web Science, JCDL)",
+      "destinationCountry": "Conference dependent",
+      "eligibilityRegion": "Developing countries",
+      "studentLevel": "MSc / PhD / Postdoc / non-tenured early career",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "event-specific",
+      "amount": "$10,000 total pool per supported conference; individual award varies",
+      "coverage": [
+        "Registration",
+        "Flights",
+        "Accommodation",
+        "Visa-related costs where the event call permits"
+      ],
+      "notCovered": [
+        "Award size depends on applicants and travel distance"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "Applications may be submitted before acceptance; accepted presenters may receive preference.",
+      "eligibility": "Students and early researchers from economically developing countries; event-specific rules apply.",
+      "membership": "Event-specific.",
+      "payment": "Event-specific reimbursement/award.",
+      "official": "https://www.sigweb.org/community/student-travel-grant",
+      "status": "watch",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://www.sigweb.org/community/student-travel-grant",
+        "deadlineLabels": [
+          "deadline",
+          "applications"
+        ]
+      }
+    },
+    {
+      "id": "aisb-student-grant",
+      "name": "AISB Student Grant",
+      "provider": "AISB",
+      "programType": "Umbrella travel grant",
+      "field": "Artificial Intelligence / Cognitive Science / relevant CS",
+      "destination": "Relevant AI, cognitive science, or CS conferences",
+      "destinationCountry": "Any",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Undergraduate / Master's / PhD",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "rolling",
+      "amount": "Usually up to £400",
+      "coverage": [
+        "Travel",
+        "Accommodation",
+        "Conference registration"
+      ],
+      "notCovered": [
+        "Meals",
+        "Local transportation"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "Presentation is not required; the application form explicitly allows 'I am not presenting'.",
+      "eligibility": "AISB student members; membership must normally have been held for 3 months before applying.",
+      "membership": "AISB membership required.",
+      "payment": "May cover advance costs.",
+      "official": "https://aisb.org.uk/student-grants/",
+      "status": "rolling",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://aisb.org.uk/student-grants/",
+        "deadlineLabels": [
+          "deadline"
+        ]
+      }
+    },
+    {
+      "id": "sighpc-rusty-lusk",
+      "name": "Ewing \"Rusty\" Lusk Travel Scholarship",
+      "provider": "ACM SIGHPC",
+      "programType": "Umbrella conference travel scholarship",
+      "field": "HPC / ML systems / Scientific computing",
+      "destination": "PASC, PEARC, and SC conferences",
+      "destinationCountry": "Conference dependent",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Graduate students",
+      "deadline": "2026-09-30T23:59:00-12:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Registration + up to $800 same-continent / $1,600 intercontinental travel",
+      "coverage": [
+        "Full conference registration",
+        "Travel reimbursement"
+      ],
+      "notCovered": [
+        "Expenses above award cap"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No accepted submission required; acceptance may strengthen an application.",
+      "eligibility": "Currently enrolled graduate students who are SIGHPC members and lack institutional support.",
+      "membership": "SIGHPC membership required.",
+      "payment": "Registration paid directly; travel reimbursed after the conference.",
+      "official": "https://www.sighpc.org/opportunities/rusty-lusk-travel-scholarship",
+      "status": "upcoming",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://www.sighpc.org/opportunities/rusty-lusk-travel-scholarship",
+        "deadlineLabels": [
+          "apply by",
+          "application deadline"
+        ]
+      }
+    },
+    {
+      "id": "neurips-2026-financial-assistance",
+      "name": "NeurIPS 2026 Financial Assistance",
+      "provider": "NeurIPS Foundation",
+      "programType": "Conference financial assistance",
+      "field": "Machine Learning / AI",
+      "destination": "NeurIPS 2026 — Atlanta, Sydney, or Paris",
+      "destinationCountry": "USA / Australia / France",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Students / junior postdocs / other participants",
+      "deadline": "2026-10-06T23:59:00-12:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Registration and/or prepaid accommodation; amount depends on assignment/inventory",
+      "coverage": [
+        "Complimentary in-person or virtual registration",
+        "Prepaid accommodation in Atlanta, Sydney, or Paris where awarded"
+      ],
+      "notCovered": [
+        "Flights",
+        "Trains",
+        "Local transportation",
+        "Meals",
+        "Per diem",
+        "Independent purchases"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "Accepted work is not mandatory; primary contributors to accepted NeurIPS work may receive priority.",
+      "eligibility": "Applicants for whom attendance would cause financial burden; evaluated holistically.",
+      "membership": "No membership requirement.",
+      "payment": "Registration/accommodation are generally provided directly rather than reimbursing travel.",
+      "official": "https://neurips.cc/Conferences/2026/FinancialAssistance",
+      "status": "upcoming",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://neurips.cc/Conferences/2026/FinancialAssistance",
+        "deadlineLabels": [
+          "application deadline"
+        ]
+      }
+    },
+    {
+      "id": "iclr-2027-financial-assistance-watch",
+      "name": "ICLR 2027 Financial Assistance — Watch",
+      "provider": "ICLR",
+      "programType": "Conference financial assistance",
+      "field": "Machine Learning / Representation Learning",
+      "destination": "ICLR 2027",
+      "destinationCountry": "TBD / conference dependent",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Students / early career / contributors",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "watch",
+      "amount": "2027 TBD; 2026 offered tiered prepaid or reimbursement support",
+      "coverage": [
+        "Historically: registration",
+        "Historically: hotel",
+        "Historically: travel reimbursement in some tiers"
+      ],
+      "notCovered": [
+        "2027 terms are not yet posted"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "ICLR states anyone needing financial assistance can apply; authorship/contribution can affect priority but is not a universal requirement.",
+      "eligibility": "2027 details TBD.",
+      "membership": "No membership requirement.",
+      "payment": "2027 TBD.",
+      "official": "https://iclr.cc/public/DiversityInclusion",
+      "status": "watch",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://iclr.cc/public/DiversityInclusion",
+        "deadlineLabels": [
+          "financial assistance",
+          "application deadline"
+        ]
+      }
+    },
+    {
+      "id": "aaai-27-student-scholar",
+      "name": "AAAI-27 Student Scholar Volunteer Program",
+      "provider": "AAAI",
+      "programType": "Conference scholarship",
+      "field": "Artificial Intelligence / Machine Learning",
+      "destination": "AAAI-27 — Montréal, Canada",
+      "destinationCountry": "Canada",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Full-time undergraduate / graduate",
+      "deadline": "2026-12-04T23:59:00-05:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Partial travel support + complimentary registration if selected",
+      "coverage": [
+        "Partial travel support",
+        "Complimentary registration"
+      ],
+      "notCovered": [
+        "Full travel cost is not guaranteed"
+      ],
+      "paperRule": "submission-not-acceptance",
+      "paperRequirement": "You must have submitted paper(s) to the conference, but the application opens before final acceptance and acceptance is not listed as an eligibility requirement.",
+      "eligibility": "Full-time undergraduate or graduate students who are AAAI members and have submitted paper(s), with advisor recommendation.",
+      "membership": "AAAI membership required.",
+      "payment": "Conference scholarship/volunteer support.",
+      "official": "https://aaai.org/conference/aaai/aaai-27/student-scholar-volunteer-program/",
+      "status": "upcoming",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://aaai.org/conference/aaai/aaai-27/student-scholar-volunteer-program/",
+        "deadlineLabels": [
+          "application closes"
+        ]
+      }
+    },
+    {
+      "id": "acm-ccs-2026-grant",
+      "name": "ACM CCS 2026 Student Conference Grant",
+      "provider": "ACM SIGSAC",
+      "programType": "Conference travel grant",
+      "field": "Security / Privacy / ML security",
+      "destination": "ACM CCS 2026 — The Hague, Netherlands",
+      "destinationCountry": "Netherlands",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Undergraduate / Graduate",
+      "deadline": "2026-09-14T23:59:59-12:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Varies",
+      "coverage": [
+        "Conference registration",
+        "Travel costs"
+      ],
+      "notCovered": [
+        "Amount varies; postdocs are not eligible"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "The grant page does not require an accepted paper.",
+      "eligibility": "Undergraduate and graduate students; financial need is considered.",
+      "membership": "No membership requirement stated on the grant page.",
+      "payment": "Conference grant.",
+      "official": "https://www.sigsac.org/ccs/CCS2026/attending/conference-grants.html",
+      "status": "upcoming",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://www.sigsac.org/ccs/CCS2026/attending/conference-grants.html",
+        "deadlineLabels": [
+          "submission deadline"
+        ]
+      }
+    },
+    {
+      "id": "siggraph-asia-2026-opportunity-grant",
+      "name": "ACM SIGGRAPH Asia 2026 Opportunity Travel Grant",
+      "provider": "ACM SIGGRAPH",
+      "programType": "Conference travel grant",
+      "field": "Graphics / Vision / AI",
+      "destination": "SIGGRAPH Asia 2026 — Kuala Lumpur, Malaysia",
+      "destinationCountry": "Malaysia",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Students / early career / professionals",
+      "deadline": "2026-09-18T23:59:00-05:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Full conference pass + documented attendance-cost reimbursement for selected grantees",
+      "coverage": [
+        "Full conference pass",
+        "Documented attendance costs under ACM SIGGRAPH travel policy"
+      ],
+      "notCovered": [
+        "Only a small number of recipients are selected"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No accepted paper is required.",
+      "eligibility": "Applicants from universities, NGOs, industry and government; students and early-career researchers are explicitly encouraged.",
+      "membership": "ACM SIGGRAPH membership required when funds are disbursed, not necessarily at application.",
+      "payment": "Reimbursement.",
+      "official": "https://www.siggraph.org/siggraph-events/conferences/opportunity-travel-grant/",
+      "status": "upcoming",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://www.siggraph.org/siggraph-events/conferences/opportunity-travel-grant/",
+        "deadlineLabels": [
+          "travel lottery closes",
+          "submit here by"
+        ]
+      }
+    },
+    {
+      "id": "cods-2026-stage1",
+      "name": "CODS 2026 Student Travel Grant — Stage 1",
+      "provider": "ACM India / IKDD",
+      "programType": "Conference travel grant",
+      "field": "Data Science / Machine Learning",
+      "destination": "CODS 2026 — India",
+      "destinationCountry": "India",
+      "eligibilityRegion": "Global / event eligibility",
+      "studentLevel": "Full-time degree students incl. Master's / PhD",
+      "deadline": null,
+      "deadlineDateOnly": "2026-09-20",
+      "deadlineType": "date-only",
+      "amount": "Up to INR 6,000; one tier also includes shared accommodation",
+      "coverage": [
+        "Travel",
+        "Conference registration at nominal rate",
+        "Shared accommodation for accommodation-tier recipients"
+      ],
+      "notCovered": [
+        "Costs above INR 6,000 monetary support"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "Stage 1 is explicitly open regardless of whether the student is submitting a paper.",
+      "eligibility": "Full-time students enrolled in a degree-granting institution who can attend all conference days.",
+      "membership": "No membership requirement stated.",
+      "payment": "Grant with or without shared accommodation.",
+      "official": "https://ikdd.acm.org/cods-2026/student-travel-grants.php",
+      "status": "upcoming",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://ikdd.acm.org/cods-2026/student-travel-grants.php",
+        "deadlineLabels": [
+          "stage 1 application deadline"
+        ]
+      }
+    },
+    {
+      "id": "hcomp-ci-2026-sigweb",
+      "name": "CI + HCOMP 2026 SIGWEB Fair Access Travel Grant",
+      "provider": "ACM SIGWEB",
+      "programType": "Conference travel grant",
+      "field": "Human-AI / Collective Intelligence",
+      "destination": "CI + HCOMP 2026 — Alexandria, Virginia, USA",
+      "destinationCountry": "USA",
+      "eligibilityRegion": "ACM developing-country residents",
+      "studentLevel": "MSc / PhD / Postdoc / non-tenured",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "rolling",
+      "amount": "Individual amount varies; $10,000 total pool",
+      "coverage": [
+        "Conference registration",
+        "Flights",
+        "Accommodation",
+        "Visa-related costs"
+      ],
+      "notCovered": [
+        "Funds are limited and may be exhausted"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "You may apply before acceptance; accepted presenters receive preference.",
+      "eligibility": "MSc/PhD students, postdocs and non-tenured professionals residing in eligible developing countries.",
+      "membership": "No membership requirement stated in the event call.",
+      "payment": "Conference travel grant.",
+      "official": "https://hcomp.acm.org/2026/travel-grants.html",
+      "status": "rolling",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://hcomp.acm.org/2026/travel-grants.html",
+        "deadlineLabels": [
+          "rolling deadline",
+          "priority deadline"
+        ]
+      }
+    },
+    {
+      "id": "ecml-pkdd-2027-watch",
+      "name": "ECML PKDD 2027 Student Support — Watch",
+      "provider": "ECML PKDD",
+      "programType": "Conference funding watch",
+      "field": "Machine Learning / Data Mining",
+      "destination": "ECML PKDD 2027 — Eindhoven, Netherlands",
+      "destinationCountry": "Netherlands",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Students",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "watch",
+      "amount": "2027 TBD; 2026 offered up to €1,000 per student",
+      "coverage": [
+        "2027 TBD"
+      ],
+      "notCovered": [
+        "2027 funding call not yet posted"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "2027 TBD. In 2026, accepted-paper authorship was not stated as mandatory; scientific-program participation was one evaluation factor.",
+      "eligibility": "2027 details TBD.",
+      "membership": "TBD.",
+      "payment": "TBD.",
+      "official": "https://ecmlpkdd.org/2027/",
+      "status": "watch",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://ecmlpkdd.org/2027/",
+        "deadlineLabels": [
+          "student participation support",
+          "scholarship",
+          "application deadline"
+        ]
+      }
+    },
+    {
+      "id": "ellis-phd-program",
+      "name": "ELLIS PhD & Postdoc Program — Conference Travel Support",
+      "provider": "ELLIS",
+      "programType": "PhD program / mobility support",
+      "field": "Machine Learning / AI",
+      "destination": "Conference and research travel through the ELLIS network",
+      "destinationCountry": "Europe / international",
+      "eligibilityRegion": "ELLIS program participants",
+      "studentLevel": "PhD / Postdoc",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "program-specific",
+      "amount": "Advisor/program dependent",
+      "coverage": [
+        "Research travel",
+        "Conference travel",
+        "Exchange opportunities"
+      ],
+      "notCovered": [
+        "Funding mechanism depends on track/advisors/project"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No conference paper is required to be in the ELLIS PhD program.",
+      "eligibility": "ELLIS PhD/Postdoc program participants under the program's admission rules.",
+      "membership": "ELLIS program participation.",
+      "payment": "Advisor/program-funded support.",
+      "official": "https://ellis.eu/research/phd-postdoc/phd-postdoc-program-details",
+      "status": "watch",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://ellis.eu/research/phd-postdoc/phd-postdoc-program-details",
+        "deadlineLabels": [
+          "applications",
+          "deadline"
+        ]
+      }
+    },
+    {
+      "id": "ellis-doctoral-symposium-mobility",
+      "name": "ELLIS Doctoral Symposium Mobility Grant",
+      "provider": "ELLIS",
+      "programType": "Program/event mobility grant",
+      "field": "Machine Learning / Trustworthy AI",
+      "destination": "ELLIS Doctoral Symposium (annual, Europe)",
+      "destinationCountry": "Europe",
+      "eligibilityRegion": "ELLIS network + limited external applicants",
+      "studentLevel": "PhD / Postdoc",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "annual-watch",
+      "amount": "Varies",
+      "coverage": [
+        "Travel",
+        "Accommodation"
+      ],
+      "notCovered": [
+        "Annual rules/amount may change"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No accepted conference paper is required; this is a doctoral symposium participation/mobility program.",
+      "eligibility": "ELLIS PhDs/postdocs and related network participants; external PhD applicants may be admitted when space permits.",
+      "membership": "ELLIS affiliation receives priority.",
+      "payment": "Mobility grant.",
+      "official": "https://ellis.eu/events/ellis-doctoral-symposium-2026",
+      "status": "watch",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://ellis.eu/events/ellis-doctoral-symposium-2026",
+        "deadlineLabels": [
+          "registration round deadline",
+          "mobility funding"
+        ]
+      }
+    },
+    {
+      "id": "google-phd-fellowship",
+      "name": "Google PhD Fellowship",
+      "provider": "Google Research",
+      "programType": "Research fellowship with travel funding",
+      "field": "Computer Science / AI / ML and related research",
+      "destination": "Research and conference travel funded through fellowship",
+      "destinationCountry": "Global regions",
+      "eligibilityRegion": "Africa / Australia-NZ / Canada-US / East Asia / Europe / India / Latin America / Southeast Asia",
+      "studentLevel": "PhD",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "annual-watch",
+      "amount": "Region-specific; includes research/travel funding",
+      "coverage": [
+        "Stipend/research support",
+        "Travel expenses including overseas/conference travel in many regions",
+        "Mentorship"
+      ],
+      "notCovered": [
+        "Exact amount and nomination route vary by region"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No conference paper requirement; this is a PhD fellowship.",
+      "eligibility": "PhD students under region-specific fellowship rules and nomination/application procedures.",
+      "membership": "None.",
+      "payment": "Fellowship funding, region-specific.",
+      "official": "https://research.google/programs-and-events/phd-fellowship/",
+      "status": "watch",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://research.google/programs-and-events/phd-fellowship/",
+        "deadlineLabels": [
+          "deadline",
+          "applications"
+        ]
+      }
+    },
+    {
+      "id": "microsoft-research-fellowship",
+      "name": "Microsoft Research Fellowship",
+      "provider": "Microsoft Research",
+      "programType": "Research fellowship with travel component",
+      "field": "Computer Science / AI / ML",
+      "destination": "Research collaboration; travel component included",
+      "destinationCountry": "Multiple global regions",
+      "eligibilityRegion": "Africa / Australia-NZ / Americas / Canada / Europe / India / East Asia / USA",
+      "studentLevel": "PhD",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "annual-watch",
+      "amount": "2026 regional awards ranged from $17,000 to $47,000",
+      "coverage": [
+        "Research fellowship funding",
+        "Travel funding for in-person collaboration"
+      ],
+      "notCovered": [
+        "Funds are paid to the institution, not directly to the student"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No conference paper requirement.",
+      "eligibility": "Active PhD students at accredited degree-granting institutions in eligible regions; challenge-specific criteria apply.",
+      "membership": "None.",
+      "payment": "Unrestricted gift to institution/university.",
+      "official": "https://www.microsoft.com/en-us/research/academic-program/2026-microsoft-research-fellowship/",
+      "status": "watch",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://www.microsoft.com/en-us/research/academic-program/2026-microsoft-research-fellowship/",
+        "deadlineLabels": [
+          "submission deadline",
+          "application deadline"
+        ]
+      }
+    },
+    {
+      "id": "msr-india-phd-award",
+      "name": "Microsoft Research India PhD Award",
+      "provider": "Microsoft Research India",
+      "programType": "PhD award with conference-travel use",
+      "field": "AI / ML / Algorithms / Systems / HCI",
+      "destination": "Conference travel may be funded from the award",
+      "destinationCountry": "India / international travel",
+      "eligibilityRegion": "India",
+      "studentLevel": "PhD",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "annual-watch",
+      "amount": "₹10 lakh one-time unrestricted grant (2026 program)",
+      "coverage": [
+        "Stipend augmentation",
+        "Conference travel",
+        "Computing equipment",
+        "Professional/research activities"
+      ],
+      "notCovered": [
+        "Current nomination cycle is closed"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No conference paper requirement.",
+      "eligibility": "Outstanding graduate students in research areas relevant to Microsoft Research India; program-specific nomination rules apply.",
+      "membership": "None.",
+      "payment": "Unrestricted award.",
+      "official": "https://www.microsoft.com/en-us/research/academic-program/microsoft-research-india-phd-award/",
+      "status": "watch",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://www.microsoft.com/en-us/research/academic-program/microsoft-research-india-phd-award/",
+        "deadlineLabels": [
+          "nominations",
+          "deadline"
+        ]
+      }
+    },
+    {
+      "id": "nvidia-graduate-fellowship",
+      "name": "NVIDIA Graduate Fellowship",
+      "provider": "NVIDIA Research",
+      "programType": "Research fellowship",
+      "field": "AI / ML / Robotics / Vision / Systems / Accelerated Computing",
+      "destination": "Research support; mandatory summer internship",
+      "destinationCountry": "Worldwide applicants; internship offices in multiple countries",
+      "eligibilityRegion": "Global",
+      "studentLevel": "PhD",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "annual-watch",
+      "amount": "Up to $60,000 in recent cycles",
+      "coverage": [
+        "Research funding",
+        "Technical support",
+        "Mentoring/industry research exposure"
+      ],
+      "notCovered": [
+        "This is not primarily a conference-travel grant; current cycle is closed"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No specific conference paper requirement; research/publication record is part of evaluation.",
+      "eligibility": "PhD students who have completed at least the first year and meet the program's research/internship requirements.",
+      "membership": "None.",
+      "payment": "Award administered through the university.",
+      "official": "https://research.nvidia.com/graduate-fellowships",
+      "status": "watch",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://research.nvidia.com/graduate-fellowships",
+        "deadlineLabels": [
+          "deadline",
+          "submissions"
+        ]
+      }
+    },
+    {
+      "id": "adobe-india-ai-fellowship",
+      "name": "Adobe India AI Research Fellowship",
+      "provider": "Adobe Research",
+      "programType": "Research fellowship",
+      "field": "Artificial Intelligence / Computer Vision / NLP / Human-centered AI",
+      "destination": "Research program; funding can support graduate research",
+      "destinationCountry": "India",
+      "eligibilityRegion": "India",
+      "studentLevel": "PhD",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "annual-watch",
+      "amount": "₹12,00,000 stipend (2026 fellowship)",
+      "coverage": [
+        "One-year stipend",
+        "Adobe tools",
+        "Research mentorship"
+      ],
+      "notCovered": [
+        "Official page does not specifically promise conference travel"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No conference paper requirement.",
+      "eligibility": "Full-time PhD candidates at recognized Indian universities with at least 12 months remaining.",
+      "membership": "None.",
+      "payment": "Fellowship stipend.",
+      "official": "https://research.adobe.com/india-ai-research-fellowship/",
+      "status": "watch",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://research.adobe.com/india-ai-research-fellowship/",
+        "deadlineLabels": [
+          "key dates",
+          "applications"
+        ]
+      }
+    },
+    {
+      "id": "iclr-2026-financial-assistance",
+      "name": "ICLR 2026 Financial Assistance",
+      "provider": "ICLR",
+      "programType": "Conference financial assistance",
+      "field": "Machine Learning",
+      "destination": "ICLR 2026 — Rio de Janeiro, Brazil",
+      "destinationCountry": "Brazil",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Students / early career contributors",
+      "deadline": "2026-03-01T23:59:00-12:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Tiered: up to $1,500 reimbursement or prepaid registration + hotel in top tier",
+      "coverage": [
+        "Registration",
+        "Hotel",
+        "Travel reimbursement in some tiers",
+        "Visa fees/food/local transport can be eligible under reimbursement rules"
+      ],
+      "notCovered": [
+        "Award is competitive and tiered"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "Accepted main-conference paper was not mandatory; students/contributors and underrepresented groups were priority categories.",
+      "eligibility": "Students and early-career contributors with financial need.",
+      "membership": "None.",
+      "payment": "Prepay or reimbursement.",
+      "official": "https://iclr.cc/Conferences/2026/FinancialAssistance",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "uai-2026-scholarship",
+      "name": "UAI 2026 Scholarship",
+      "provider": "Association for Uncertainty in AI",
+      "programType": "Conference registration scholarship",
+      "field": "Machine Learning / Probabilistic AI",
+      "destination": "UAI 2026",
+      "destinationCountry": "Conference-specific",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Students / participants in financial need",
+      "deadline": "2026-07-05T23:59:00-12:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Free online or in-person registration",
+      "coverage": [
+        "Registration fees"
+      ],
+      "notCovered": [
+        "Travel"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "Accepted UAI paper encouraged, but explicitly not required.",
+      "eligibility": "Participants in financial need.",
+      "membership": "None stated.",
+      "payment": "Registration waiver/reimbursement.",
+      "official": "https://www.auai.org/uai2026/scholarships",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "kdd-2026-travel-award",
+      "name": "KDD 2026 Student Travel Award",
+      "provider": "ACM SIGKDD",
+      "programType": "Conference travel grant",
+      "field": "Data Mining / Machine Learning",
+      "destination": "KDD 2026",
+      "destinationCountry": "Conference-specific",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Full-time undergraduate / graduate",
+      "deadline": "2026-06-11T23:59:00-12:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Partial expenses + registration waiver",
+      "coverage": [
+        "Registration waiver",
+        "Partial travel/attendance expenses"
+      ],
+      "notCovered": [
+        "Award size depends on sponsor funding"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "No accepted paper needed to apply; publication acceptance may affect allocation.",
+      "eligibility": "Full-time students interested in data mining or ML research.",
+      "membership": "None stated.",
+      "payment": "Reimbursement after conference with receipts.",
+      "official": "https://kdd2026.kdd.org/call-for-student-travel-award-applications/",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "sigmod-2026-travel",
+      "name": "SIGMOD/PODS 2026 Student Travel Grant",
+      "provider": "ACM SIGMOD",
+      "programType": "Conference travel grant",
+      "field": "Data Management / Data Systems / ML data",
+      "destination": "SIGMOD/PODS 2026 — Bengaluru, India",
+      "destinationCountry": "India",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Full-time undergraduate / graduate / PhD",
+      "deadline": "2026-04-24T23:59:00-08:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Partial stipend; amount depends on funds",
+      "coverage": [
+        "Travel stipend"
+      ],
+      "notCovered": [
+        "Students arrange their own travel/accommodation; award may be partial"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "Accepted paper not required; students without accepted papers doing relevant research are encouraged.",
+      "eligibility": "Full-time students worldwide; awardees must become SIGMOD members.",
+      "membership": "SIGMOD membership required by award time.",
+      "payment": "Travel stipend.",
+      "official": "https://2026.sigmod.org/travel_awards.shtml",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "sigcomm-2026-travel",
+      "name": "SIGCOMM 2026 Student Travel Grants",
+      "provider": "ACM SIGCOMM / NSF / N2Women",
+      "programType": "Conference travel grant",
+      "field": "Networking / ML systems",
+      "destination": "SIGCOMM 2026 — Denver, USA",
+      "destinationCountry": "USA",
+      "eligibilityRegion": "Multiple targeted groups",
+      "studentLevel": "Students / postdocs / early career",
+      "deadline": "2026-06-19",
+      "deadlineDateOnly": null,
+      "deadlineType": "date-only",
+      "amount": "Target awards approximately $800–$1,000",
+      "coverage": [
+        "Airfare",
+        "Hotel",
+        "Registration",
+        "Meals within award rules"
+      ],
+      "notCovered": [
+        "Partial reimbursement"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "Preference is explicitly given to applicants not presenting a paper.",
+      "eligibility": "GeoDiversity, N2Women and NSF-targeted applicant groups.",
+      "membership": "Event-specific.",
+      "payment": "Partial reimbursement.",
+      "official": "https://conferences.sigcomm.org/sigcomm/2026/travel-grants/",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "imc-2026-travel",
+      "name": "ACM IMC 2026 Travel Grant",
+      "provider": "ACM SIGCOMM / IMC",
+      "programType": "Conference travel grant",
+      "field": "Internet Measurement / Systems / ML systems",
+      "destination": "IMC 2026 — Karlsruhe, Germany",
+      "destinationCountry": "Germany",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Graduate students / postdocs / early career",
+      "deadline": "2026-08-24T23:59:00-12:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Significant offset of airfare, shared hotel, and registration",
+      "coverage": [
+        "Airfare",
+        "Shared accommodation",
+        "Registration"
+      ],
+      "notCovered": [
+        "May not fully cover expenses"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No accepted paper required; rejected-paper authors and early PhD students without support are explicitly prioritized.",
+      "eligibility": "Graduate students, postdocs and early-career researchers with limited funds.",
+      "membership": "None stated.",
+      "payment": "Travel grant.",
+      "official": "https://conferences2.sigcomm.org/imc/2026/travel-grants/",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "codaspy-2026-travel",
+      "name": "ACM CODASPY 2026 Student Travel Grant",
+      "provider": "ACM SIGSAC",
+      "programType": "Conference travel grant",
+      "field": "Security / Privacy / Data",
+      "destination": "CODASPY 2026 — Frankfurt, Germany",
+      "destinationCountry": "Germany",
+      "eligibilityRegion": "Global subject to ACM sanctions rules",
+      "studentLevel": "Undergraduate / Graduate",
+      "deadline": "2026-04-20",
+      "deadlineDateOnly": null,
+      "deadlineType": "date-only",
+      "amount": "Up to $1,500",
+      "coverage": [
+        "Airfare",
+        "Lodging",
+        "Conference registration"
+      ],
+      "notCovered": [
+        "Costs above award"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No accepted paper requirement is listed.",
+      "eligibility": "Selected undergraduate or graduate students worldwide with merit and financial need.",
+      "membership": "None stated.",
+      "payment": "Reimbursement; registration can be covered via discount code.",
+      "official": "https://codaspy.org/2026/travel-grant.html",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "recsys-2026-registration-grant",
+      "name": "RecSys 2026 Registration Grant",
+      "provider": "ACM RecSys",
+      "programType": "Conference registration grant",
+      "field": "Recommender Systems / Machine Learning",
+      "destination": "RecSys 2026 — Minneapolis, USA",
+      "destinationCountry": "USA",
+      "eligibilityRegion": "Global, need-based",
+      "studentLevel": "Master's / PhD / early career",
+      "deadline": "2026-08-10T23:59:00-12:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Typically 50% registration; full waiver possible in exceptional cases",
+      "coverage": [
+        "Registration"
+      ],
+      "notCovered": [
+        "Travel and lodging are not part of this specific grant"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No accepted paper required.",
+      "eligibility": "Need-based, including lower-income/developing-country participants and Master's/PhD researchers lacking institutional support.",
+      "membership": "None stated.",
+      "payment": "Registration discount/waiver.",
+      "official": "https://recsys.acm.org/recsys26/inclusion/",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "acl-2026-di",
+      "name": "ACL 2026 Diversity & Inclusion Subsidies",
+      "provider": "Association for Computational Linguistics",
+      "programType": "Conference subsidy",
+      "field": "NLP / Machine Learning",
+      "destination": "ACL 2026 — San Diego, USA",
+      "destinationCountry": "USA",
+      "eligibilityRegion": "Global, priority underrepresented/financial hardship",
+      "studentLevel": "Students / researchers",
+      "deadline": "2026-05-15T23:59:00-12:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Varies",
+      "coverage": [
+        "Travel",
+        "Accommodation",
+        "Registration/membership",
+        "Caregiving/accessibility",
+        "Bandwidth/VPN"
+      ],
+      "notCovered": [
+        "Limited budget; reimbursement may require upfront payment"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "Presenting authors receive preference, but the subsidy call also invites students/researchers from underrepresented communities facing financial barriers generally.",
+      "eligibility": "Students/researchers with financial barriers; underrepresented communities and first-time attendees prioritized.",
+      "membership": "Not generally required to apply.",
+      "payment": "Waiver and/or reimbursement depending category.",
+      "official": "https://2026.aclweb.org/calls/di_subsidies/",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "emnlp-2026-di",
+      "name": "EMNLP 2026 Diversity & Inclusion Subsidies",
+      "provider": "ACL / EMNLP",
+      "programType": "Conference subsidy",
+      "field": "NLP / Machine Learning",
+      "destination": "EMNLP 2026 — Budapest, Hungary",
+      "destinationCountry": "Hungary",
+      "eligibilityRegion": "Global, priority developing/marginalized/financial hardship",
+      "studentLevel": "Students / researchers",
+      "deadline": "2026-09-07T23:59:00-12:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Varies",
+      "coverage": [
+        "Registration",
+        "Travel",
+        "Accommodation",
+        "Caregiving/accessibility",
+        "Bandwidth/VPN"
+      ],
+      "notCovered": [
+        "Limited budget"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "Presenting authors receive preference; the call broadly encourages students and researchers with financial hurdles to apply.",
+      "eligibility": "Developing-country researchers, marginalized communities, students and researchers with financial hurdles.",
+      "membership": "No general membership requirement to apply.",
+      "payment": "Waiver/reimbursement.",
+      "official": "https://2026.emnlp.org/calls/subsidies/",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "ijcai-ecai-2026-grant",
+      "name": "IJCAI–AIJ 2026 Travel & Accessibility Grant",
+      "provider": "IJCAI / AIJ",
+      "programType": "Conference travel grant",
+      "field": "Artificial Intelligence / Machine Learning",
+      "destination": "IJCAI–ECAI 2026 — Bremen, Germany",
+      "destinationCountry": "Germany",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Students / junior scientists / scientists",
+      "deadline": "2026-06-04T23:59:00-12:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Case-by-case",
+      "coverage": [
+        "Travel/accessibility expenses by reimbursement"
+      ],
+      "notCovered": [
+        "Funding is limited and applicants are asked to seek local support first"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "Accepted paper not required; accepted technical-paper authors get preference if demand exceeds funds.",
+      "eligibility": "Students, junior scientists and scientists attending IJCAI–ECAI.",
+      "membership": "No IJCAI membership requirement stated.",
+      "payment": "Post-conference reimbursement with receipts/report.",
+      "official": "https://2026.ijcai.org/call-for-grant-applications/",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "eurai-ijcai-2026",
+      "name": "EurAI Travel Grant for IJCAI–ECAI 2026",
+      "provider": "EurAI",
+      "programType": "Society travel grant",
+      "field": "Artificial Intelligence",
+      "destination": "IJCAI–ECAI 2026 — Bremen, Germany",
+      "destinationCountry": "Germany",
+      "eligibilityRegion": "European institution affiliation",
+      "studentLevel": "Students prioritized",
+      "deadline": "2026-06-01",
+      "deadlineDateOnly": null,
+      "deadlineType": "date-only",
+      "amount": "€400",
+      "coverage": [
+        "Registration",
+        "Plane ticket",
+        "Hotel",
+        "Other attendance expenses"
+      ],
+      "notCovered": [
+        "Award paid after participation"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "Being a paper author is a selection criterion, not stated as a basic eligibility requirement.",
+      "eligibility": "Affiliation with a European institution/university + membership in a EurAI national AI society, with exceptions case-by-case.",
+      "membership": "Membership in a EurAI member national AI society required.",
+      "payment": "Paid after proof of participation.",
+      "official": "https://eurai.org/applications/travel_grant",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "ecml-pkdd-2026-support",
+      "name": "ECML PKDD 2026 Student Participation Support",
+      "provider": "ECML PKDD",
+      "programType": "Conference participation grant",
+      "field": "Machine Learning / Data Mining",
+      "destination": "ECML PKDD 2026 — Naples, Italy",
+      "destinationCountry": "Italy",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Students",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "past-unknown",
+      "amount": "Up to €1,000",
+      "coverage": [
+        "Financial contribution toward conference participation"
+      ],
+      "notCovered": [
+        "Public page does not specify an expense-by-expense list"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "Accepted-paper authorship is not stated as mandatory; scientific-program participation is one evaluation factor.",
+      "eligibility": "Students who may otherwise be unable to attend.",
+      "membership": "None stated.",
+      "payment": "Financial contribution.",
+      "official": "https://ecmlpkdd.org/2026/scholarship/",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "aixia-2026-grant",
+      "name": "AIxIA 2026 Student Travel Grant",
+      "provider": "Italian Association for Artificial Intelligence",
+      "programType": "Conference registration grant",
+      "field": "Artificial Intelligence / Machine Learning",
+      "destination": "AIxIA 2026 — Perugia, Italy",
+      "destinationCountry": "Italy",
+      "eligibilityRegion": "International; AIxIA membership required",
+      "studentLevel": "Bachelor / Master's / PhD / recent Bachelor-Master graduates",
+      "deadline": "2026-07-05",
+      "deadlineDateOnly": null,
+      "deadlineType": "date-only",
+      "amount": "€400 registration discount",
+      "coverage": [
+        "€400 of registration fee"
+      ],
+      "notCovered": [
+        "Travel",
+        "Accommodation",
+        "Membership fee",
+        "Remaining registration balance"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "Accepted contributions are evaluation criteria, not eligibility requirements.",
+      "eligibility": "Eligible students/recent graduates who are AIxIA members and meet the call requirements.",
+      "membership": "AIxIA membership required.",
+      "payment": "Registration discount code.",
+      "official": "https://aixia2026.unipg.it/call/grants.html",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "pasc26-student",
+      "name": "PASC26 Student Travel Grant",
+      "provider": "SIGHPC / PASC",
+      "programType": "Conference travel grant",
+      "field": "Scientific Computing / HPC / ML systems",
+      "destination": "PASC26 — Switzerland",
+      "destinationCountry": "Switzerland",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Undergraduate / Graduate",
+      "deadline": "2026-03-30",
+      "deadlineDateOnly": null,
+      "deadlineType": "date-only",
+      "amount": "Up to $800 within Europe / $1,600 from another continent + registration",
+      "coverage": [
+        "Travel",
+        "Registration"
+      ],
+      "notCovered": [
+        "Expenses above cap"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "Contribution submission is favored but explicitly not required.",
+      "eligibility": "Undergraduate/graduate students who are SIGHPC members.",
+      "membership": "SIGHPC membership required.",
+      "payment": "Travel grant + registration.",
+      "official": "https://pasc-conference.org/editions/pasc26/about/student-travel-grants/",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "sosp-2026-scholarship",
+      "name": "SOSP 2026 Student Scholarship",
+      "provider": "ACM SIGOPS",
+      "programType": "Conference registration scholarship",
+      "field": "Operating Systems / ML systems",
+      "destination": "SOSP 2026 — Prague, Czechia",
+      "destinationCountry": "Czechia",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Undergraduate / PhD / enrolled postdocs",
+      "deadline": "2026-08-01T23:59:00-12:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Conference registration",
+      "coverage": [
+        "SOSP conference registration"
+      ],
+      "notCovered": [
+        "Travel",
+        "Accommodation"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No accepted paper requirement is stated.",
+      "eligibility": "Students enrolled at educational institutions worldwide; advisor must commit to covering travel.",
+      "membership": "No ACM membership required.",
+      "payment": "Direct conference registration.",
+      "official": "https://sigops.org/s/conferences/sosp/2026/grant.html",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "ispass-2026-travel",
+      "name": "ISPASS 2026 Student Travel Grant",
+      "provider": "ISPASS sponsors",
+      "programType": "Conference travel grant",
+      "field": "Computer Architecture / Systems / ML systems",
+      "destination": "ISPASS 2026",
+      "destinationCountry": "South Korea",
+      "eligibilityRegion": "Global subject to sponsor rules",
+      "studentLevel": "BS / MS / PhD / postdoc",
+      "deadline": "2026-03-20T23:59:00-12:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Case-by-case",
+      "coverage": [
+        "Travel reimbursement"
+      ],
+      "notCovered": [
+        "Applicant/advisor must be able to cover excess costs"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "Students do not need to be authors/presenters on an accepted paper; authors/presenters receive higher priority.",
+      "eligibility": "Students/postdocs in fields covered by ISPASS with advisor support letter.",
+      "membership": "None stated.",
+      "payment": "Post-conference reimbursement.",
+      "official": "https://ispass.org/ispass2026/studenttravel.php",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "aamas-2026-scholarship",
+      "name": "AAMAS 2026 Student Attendance Scholarship",
+      "provider": "AAMAS / IFAAMAS",
+      "programType": "Conference scholarship",
+      "field": "Multi-Agent Systems / AI / ML",
+      "destination": "AAMAS 2026 — Paphos, Cyprus",
+      "destinationCountry": "Cyprus",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Full-time students",
+      "deadline": "2026-02-25T23:59:00-12:00",
+      "deadlineDateOnly": null,
+      "deadlineType": "exact",
+      "amount": "Partial registration and/or travel/accommodation",
+      "coverage": [
+        "Registration",
+        "Travel/accommodation depending award"
+      ],
+      "notCovered": [
+        "Support is partial and competitive"
+      ],
+      "paperRule": "accepted-preferred",
+      "paperRequirement": "Accepted-paper authors receive priority, but the call explicitly says students without an accepted paper may be supported if funding permits.",
+      "eligibility": "Full-time students; attendance and student volunteering required if selected.",
+      "membership": "None stated.",
+      "payment": "Scholarship.",
+      "official": "https://cyprusconferences.org/aamas2026/call-for-scholarships/",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "kr-2026-di-grant",
+      "name": "KR 2026 Diversity & Inclusion Grant",
+      "provider": "KR Inc.",
+      "programType": "Conference D&I grant",
+      "field": "Knowledge Representation / AI",
+      "destination": "KR 2026",
+      "destinationCountry": "Conference-specific",
+      "eligibilityRegion": "Global, underrepresented groups/countries priority",
+      "studentLevel": "PhD / Postdoc / researchers / academics",
+      "deadline": "2026-04-30",
+      "deadlineDateOnly": null,
+      "deadlineType": "date-only",
+      "amount": "Varies",
+      "coverage": [
+        "Registration waiver and/or partial travel funding"
+      ],
+      "notCovered": [
+        "Budget is modest; applicants are encouraged to seek top-up funding"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No accepted paper requirement is stated.",
+      "eligibility": "Attendees from groups/countries underrepresented in KR who lack means to attend.",
+      "membership": "None stated.",
+      "payment": "Grant/waiver.",
+      "official": "https://kr.org/KR2026/call_dni_grants.html",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "icra-2026-spirse",
+      "name": "ICRA 2026 SPIRSE Student Travel Grant",
+      "provider": "IEEE Robotics and Automation Society",
+      "programType": "Conference travel grant / standards program",
+      "field": "Robotics / AI",
+      "destination": "ICRA 2026 — Vienna, Austria",
+      "destinationCountry": "Austria",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Students",
+      "deadline": "2026-02-01",
+      "deadlineDateOnly": null,
+      "deadlineType": "date-only",
+      "amount": "Up to $3,000",
+      "coverage": [
+        "Flights",
+        "Hotel",
+        "Conference registration",
+        "Complimentary IEEE/RAS memberships"
+      ],
+      "notCovered": [
+        "Only a few grants are awarded"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "Priority is given to students who would not otherwise attend, including students without an accepted paper.",
+      "eligibility": "Students interested in robotics standardization; no IEEE membership required to apply.",
+      "membership": "No membership required; memberships included in award.",
+      "payment": "Reimbursement after attendance.",
+      "official": "https://www.ieee-ras.org/industry-activities/standards/students-participating-in-ieee-robotic-standardization-efforts/2026-icra-spirse-competition-2/",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "womencourage-2026",
+      "name": "ACM womENcourage 2026 Participation Scholarship",
+      "provider": "ACM-W Europe",
+      "programType": "Conference participation scholarship",
+      "field": "Computing / AI / ML",
+      "destination": "womENcourage 2026 — Sophia Antipolis, France",
+      "destinationCountry": "France",
+      "eligibilityRegion": "Europe / Africa / Middle East / Azerbaijan / Kazakhstan",
+      "studentLevel": "Undergraduate / Postgraduate",
+      "deadline": null,
+      "deadlineDateOnly": null,
+      "deadlineType": "past-unknown",
+      "amount": "€300 / €450 / €600 by travel zone + free registration",
+      "coverage": [
+        "Travel and accommodation contribution",
+        "Free conference registration"
+      ],
+      "notCovered": [
+        "Award is reimbursed after attendance"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "Accepted poster is not essential; some awards go to students showing exceptional interest and willingness to volunteer.",
+      "eligibility": "Students in ACM-W Europe region; computing or directly related field.",
+      "membership": "No ACM membership requirement stated for the participation scholarship.",
+      "payment": "Post-event bank-transfer reimbursement.",
+      "official": "https://womencourage.acm.org/2026/index.php/get-a-scholarship/",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "srecon26-emea",
+      "name": "SREcon26 Europe/Middle East/Africa Student Grant",
+      "provider": "USENIX",
+      "programType": "Conference student grant",
+      "field": "Systems / Reliability / ML infrastructure",
+      "destination": "SREcon26 EMEA",
+      "destinationCountry": "Europe",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Full-time students",
+      "deadline": "2026-09-08",
+      "deadlineDateOnly": null,
+      "deadlineType": "date-only",
+      "amount": "Varies",
+      "coverage": [
+        "Registration",
+        "Travel",
+        "Accommodation"
+      ],
+      "notCovered": [
+        "Rarely covers complete travel costs"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "No presenter requirement.",
+      "eligibility": "Full-time students lacking sufficient funding.",
+      "membership": "No membership requirement stated.",
+      "payment": "USENIX grant.",
+      "official": "https://www.usenix.org/conference/srecon26emea/grants",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "sc26-sighpc-travel",
+      "name": "SIGHPC SC26 Student Travel Grant",
+      "provider": "ACM SIGHPC",
+      "programType": "Conference travel grant",
+      "field": "HPC / AI / ML systems",
+      "destination": "SC26 — Chicago, USA",
+      "destinationCountry": "USA",
+      "eligibilityRegion": "Global",
+      "studentLevel": "Undergraduate / early graduate",
+      "deadline": "2026-08-31",
+      "deadlineDateOnly": null,
+      "deadlineType": "date-only",
+      "amount": "Up to $800 North America / $1,600 intercontinental + registration",
+      "coverage": [
+        "Travel reimbursement",
+        "Complimentary conference registration",
+        "Optional mentor"
+      ],
+      "notCovered": [
+        "Award cap applies"
+      ],
+      "paperRule": "none",
+      "paperRequirement": "Applicants do not have to present at SC.",
+      "eligibility": "Students enrolled at accredited universities worldwide who are SIGHPC members.",
+      "membership": "SIGHPC membership required.",
+      "payment": "Travel reimbursement + registration.",
+      "official": "https://www.sighpc.org/opportunities/travel-grants",
+      "status": "past",
+      "verified": "2026-09-12",
+      "autoUpdate": {
+        "enabled": false
+      }
+    }
+  ]
+}

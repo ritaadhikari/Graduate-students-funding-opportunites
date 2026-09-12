@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Global graduate-student ML/AI conference and research funding tracker with live deadlines.">
+<title>Graduate ML/AI Funding Tracker</title>
+<style>
+:root{--bg:#f6f7f5;--card:rgba(255,255,255,.94);--text:#17201d;--muted:#68736f;--line:#dfe5e2;--accent:#176b55;--soft:#e7f3ef;--gold:#765616;--goldsoft:#fbf4dc;--blue:#3d5c83;--bluesoft:#edf2f8;--danger:#9a3d3d;--shadow:0 12px 35px rgba(24,42,35,.07);--radius:18px}
+*{box-sizing:border-box}body{margin:0;color:var(--text);line-height:1.45;background:radial-gradient(circle at 15% -10%,rgba(23,107,85,.10),transparent 28rem),var(--bg);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{width:min(1220px,calc(100% - 32px));margin:0 auto}header{padding:48px 0 28px}.site-nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}.site-nav a{text-decoration:none;border:1px solid var(--line);background:#fff;color:var(--text);padding:9px 13px;border-radius:999px;font-size:13px;font-weight:800}.site-nav a.active{background:var(--text);color:#fff}
+.eyebrow{display:inline-flex;padding:7px 11px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.7);color:var(--muted);font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em}
+h1{font-size:clamp(34px,6vw,58px);line-height:1.02;letter-spacing:-.045em;margin:16px 0 10px}.intro{max-width:930px;color:var(--muted);margin:0}
+.hero{display:grid;grid-template-columns:1.55fr .65fr .65fr;gap:12px;margin-top:26px}.hero>div{padding:20px 22px;border:1px solid var(--line);border-radius:var(--radius);background:var(--card);box-shadow:var(--shadow)}.hero .next{background:var(--text);color:#fff}.label{font-size:11px;text-transform:uppercase;letter-spacing:.05em;font-weight:850;color:var(--muted)}.next .label{color:#bbc6c2}.big{font-size:20px;font-weight:850;margin-top:5px}.count{font-variant-numeric:tabular-nums;margin-top:6px;font-weight:850}
+.controls{padding:22px 0 14px;display:grid;gap:10px}.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.grow{flex:1}.search,select{border:1px solid var(--line);background:#fff;color:var(--text);padding:10px 12px;border-radius:12px;font:inherit;font-size:13px}.search{width:min(420px,100%)}button{border:1px solid var(--line);background:#fff;color:var(--text);padding:9px 13px;border-radius:999px;font:inherit;font-size:13px;font-weight:780;cursor:pointer}button.active{background:var(--text);color:#fff}.live{font-size:13px;color:var(--muted);margin-left:auto}.pulse{display:inline-block;width:7px;height:7px;border-radius:50%;background:#2d9d78;margin-right:6px;box-shadow:0 0 0 4px rgba(45,157,120,.12)}
+#list{display:grid;gap:12px;padding-bottom:36px}.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:0 8px 25px rgba(24,42,35,.045);display:grid;grid-template-columns:minmax(300px,1.5fr) minmax(175px,.75fr) minmax(240px,1fr) auto;gap:18px;align-items:start}.card:first-child.upcoming{border-color:rgba(23,107,85,.48);box-shadow:0 12px 38px rgba(23,107,85,.10)}
+.title-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.title{font-size:19px;font-weight:850}.sub{font-size:13px;color:var(--muted);margin-top:5px}.badge{font-size:11px;font-weight:900;padding:5px 8px;border-radius:999px;background:#eef1f0;color:var(--muted)}.green{background:var(--soft);color:var(--accent)}.gold{background:var(--goldsoft);color:var(--gold)}.blue{background:var(--bluesoft);color:var(--blue)}.deadline-title{font-size:11px;text-transform:uppercase;letter-spacing:.05em;font-weight:850;color:var(--muted)}.date{font-weight:760;margin-top:4px}.countdown{font-weight:850;color:var(--accent);font-size:13px;margin-top:5px;font-variant-numeric:tabular-nums}.passed{color:var(--danger)}.tbd,.watch,.rolling{color:var(--muted)}
+.info{font-size:12px;color:var(--muted);margin-top:9px}.info strong{color:var(--text)}.info ul{padding-left:18px;margin:5px 0}.paper{margin-top:10px;padding:9px 10px;border-radius:10px;background:#f2f6f4;font-size:12px}.links{display:flex;flex-direction:column;gap:8px;min-width:122px}.link{text-decoration:none;border:1px solid var(--line);background:#fff;color:var(--text);padding:8px 10px;border-radius:10px;font-size:12px;font-weight:780;text-align:center}.link:hover{border-color:#aab7b2;transform:translateY(-1px)}.meta{font-size:11px;color:var(--muted);margin-top:8px}
+footer{border-top:1px solid var(--line);padding:24px 0 46px;color:var(--muted);font-size:12px}.error{padding:18px;border:1px solid #e5c7c7;background:#fff;border-radius:var(--radius);color:var(--danger)}
+@media(max-width:960px){.hero{grid-template-columns:1fr 1fr}.hero .next{grid-column:1/-1}.card{grid-template-columns:1fr 1fr}.links{grid-column:1/-1;flex-direction:row}.link{flex:1}}
+@media(max-width:600px){.hero,.card{grid-template-columns:1fr}.hero .next,.links{grid-column:auto}.links{flex-direction:column}.live{margin-left:0}}
+</style>
+</head>
+<body>
+<header class="wrap">
+<nav class="site-nav"><a href="index.html">Paper deadlines</a><a class="active" href="funding.html">Graduate funding</a></nav>
+<div class="eyebrow">Global · graduate student · no accepted-paper-only grants</div>
+<h1>Graduate ML/AI Funding Tracker</h1>
+<p class="intro">Verified conference grants, reusable travel grants, and graduate research programs that can help pay for conferences or research travel. Upcoming deadlines sort automatically and countdowns update every second. Programs that require an accepted paper as a hard eligibility condition are excluded from the default dataset.</p>
+<div class="hero">
+  <div class="next"><div class="label">Next funding deadline</div><div class="big" id="nextName">Loading…</div><div class="count" id="nextCount">—</div></div>
+  <div><div class="label">Verified programs</div><div class="big" id="total">—</div></div>
+  <div><div class="label">Last checked</div><div class="big" id="checked">—</div></div>
+</div>
+</header>
+
+<main class="wrap">
+<div class="controls">
+  <div class="row">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="upcoming">Upcoming</button>
+    <button data-filter="rolling">Rolling</button>
+    <button data-filter="watch">Watch / TBD</button>
+    <button data-filter="past">Past examples</button>
+    <div class="live"><span class="pulse"></span>Live countdown · nearest deadline first</div>
+  </div>
+  <div class="row">
+    <input id="search" class="search grow" type="search" placeholder="Search NeurIPS, Europe, PhD, travel, hotel…">
+    <select id="typeSelect"><option value="all">All program types</option></select>
+    <select id="regionSelect"><option value="all">All eligibility regions</option></select>
+    <select id="paperSelect">
+      <option value="all">Any no-acceptance rule</option>
+      <option value="none">No paper needed</option>
+      <option value="submission-not-acceptance">Submission needed; acceptance not</option>
+      <option value="accepted-preferred">Accepted work only preferred</option>
+    </select>
+  </div>
+</div>
+<section id="list"><div class="card"><div>Loading funding data…</div></div></section>
+</main>
+
+<footer><div class="wrap">
+<strong>Verification model.</strong> Published cards come from official organization/event pages. The repository also contains an automated discovery queue for new grant pages, but newly discovered links are not promoted to the public list until they match the tracker’s eligibility rules. No central registry contains every funding program in every country, so this is designed to grow continuously without pretending to be exhaustive.
+</div></footer>
+
+<script>
+let programs=[],meta={},active="all";
+const $=s=>document.querySelector(s);
+
+function recurringNext(rule, now){
+  if(!rule?.monthDays?.length)return null;
+  const offset=rule.offset||"-12:00", time=rule.time||"23:59";
+  for(let add=0;add<=2;add++){
+    const y=now.getUTCFullYear()+add;
+    for(const md of rule.monthDays){
+      const iso=`${y}-${md}T${time}:00${offset}`;
+      const d=new Date(iso);
+      if(d>now)return {target:d,iso};
+    }
+  }
+  return null;
+}
+function deadlineInfo(p,now=new Date()){
+  if(p.deadlineType==="recurring"){
+    const r=recurringNext(p.recurrence,now);
+    return r?{state:"upcoming",ms:r.target-now,target:r.target,display:r.iso,derived:true}:{state:"tbd",ms:Infinity};
+  }
+  if(p.deadline){
+    const d=new Date(p.deadline),ms=d-now;
+    return {state:ms>0?"upcoming":"passed",ms,target:d,display:p.deadline};
+  }
+  if(p.deadlineDateOnly){
+    const d=new Date(p.deadlineDateOnly+"T23:59:59Z"),ms=d-now;
+    return {state:ms>0?"upcoming":"passed",ms,target:d,display:p.deadlineDateOnly,dateOnly:true};
+  }
+  if(p.deadlineType==="rolling")return {state:"rolling",ms:Infinity};
+  return {state:"watch",ms:Infinity};
+}
+function countdown(info){
+  if(info.state==="rolling")return "Rolling / until funds run out";
+  if(info.state==="watch")return "TBD — watching official source";
+  if(info.state==="tbd")return "TBD";
+  if(info.state==="passed")return "Passed";
+  let sec=Math.floor(info.ms/1000),w=Math.floor(sec/604800),d=Math.floor((sec%604800)/86400),h=Math.floor((sec%86400)/3600),m=Math.floor((sec%3600)/60),s=sec%60,a=[];
+  if(w)a.push(w+"w");if(w||d)a.push(d+"d");a.push(String(h).padStart(2,"0")+"h",String(m).padStart(2,"0")+"m",String(s).padStart(2,"0")+"s");
+  return a.join(" ");
+}
+function fmt(info){
+  if(info.state==="rolling")return "Rolling";
+  if(info.state==="watch"||info.state==="tbd")return "TBD";
+  if(info.dateOnly)return new Intl.DateTimeFormat("en-US",{year:"numeric",month:"short",day:"numeric",timeZone:"UTC"}).format(info.target)+" · time not stated";
+  return new Intl.DateTimeFormat("en-US",{year:"numeric",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"}).format(info.target);
+}
+function orderState(s){return ({upcoming:0,rolling:1,watch:2,tbd:2,passed:3})[s]??9}
+function sorted(now){return [...programs].sort((a,b)=>{const A=deadlineInfo(a,now),B=deadlineInfo(b,now);if(orderState(A.state)!==orderState(B.state))return orderState(A.state)-orderState(B.state);if(A.state==="upcoming")return A.ms-B.ms;if(A.state==="passed")return B.ms-A.ms;return a.name.localeCompare(b.name)})}
+function filterOK(p,now){
+  const s=deadlineInfo(p,now).state;
+  if(active==="upcoming"&&s!=="upcoming")return false;
+  if(active==="rolling"&&s!=="rolling")return false;
+  if(active==="watch"&&!["watch","tbd"].includes(s))return false;
+  if(active==="past"&&s!=="passed")return false;
+  const q=$("#search").value.trim().toLowerCase();
+  if(q&&!JSON.stringify(p).toLowerCase().includes(q))return false;
+  const t=$("#typeSelect").value;if(t!=="all"&&p.programType!==t)return false;
+  const r=$("#regionSelect").value;if(r!=="all"&&p.eligibilityRegion!==r)return false;
+  const pr=$("#paperSelect").value;if(pr!=="all"&&p.paperRule!==pr)return false;
+  return true;
+}
+function paperBadge(p){
+  if(p.paperRule==="none")return `<span class="badge green">No paper needed</span>`;
+  if(p.paperRule==="submission-not-acceptance")return `<span class="badge blue">Submission only</span>`;
+  return `<span class="badge gold">Acceptance only preferred</span>`;
+}
+function typeBadge(p){
+  const x=p.programType.toLowerCase();
+  return `<span class="badge ${x.includes("fellow")||x.includes("phd program")?"blue":x.includes("umbrella")?"green":""}">${p.programType}</span>`;
+}
+function render(){
+  if(!programs.length)return;
+  const now=new Date(),visible=sorted(now).filter(p=>filterOK(p,now));
+  $("#list").innerHTML=visible.map(p=>{
+    const di=deadlineInfo(p,now);
+    return `<article class="card ${di.state}">
+      <div>
+        <div class="title-row"><div class="title">${p.name}</div>${typeBadge(p)}${paperBadge(p)}</div>
+        <div class="sub">${p.provider} · ${p.field}</div>
+        <div class="sub"><strong>Use for:</strong> ${p.destination}</div>
+        <div class="info"><strong>Funding:</strong> ${p.amount}
+          ${(p.coverage||[]).length?`<ul>${p.coverage.map(x=>`<li>${x}</li>`).join("")}</ul>`:""}
+          ${(p.notCovered||[]).length?`<strong>Limits:</strong><ul>${p.notCovered.map(x=>`<li>${x}</li>`).join("")}</ul>`:""}
+        </div>
+        <div class="paper"><strong>Paper rule:</strong> ${p.paperRequirement}</div>
+      </div>
+      <div>
+        <div class="deadline-title">Funding deadline</div>
+        <div class="date ${di.state}">${fmt(di)}</div>
+        <div class="countdown ${di.state}">${countdown(di)}</div>
+        <div class="meta">${p.deadlineType==="recurring"?"Recurring schedule":p.deadlineType==="rolling"?"Rolling call":p.status==="watch"?"Future call watch":"Official call"}</div>
+      </div>
+      <div>
+        <div class="deadline-title">Who can apply?</div>
+        <div class="info">${p.eligibility}</div>
+        <div class="deadline-title" style="margin-top:12px">Region / membership</div>
+        <div class="info">${p.eligibilityRegion}<br>${p.membership}</div>
+        <div class="deadline-title" style="margin-top:12px">Payment</div>
+        <div class="info">${p.payment}</div>
+      </div>
+      <div class="links"><a class="link" href="${p.official}" target="_blank" rel="noopener">Official source ↗</a></div>
+    </article>`;
+  }).join("")||`<div class="card"><div>No verified programs match these filters.</div></div>`;
+
+  const next=sorted(now).find(p=>deadlineInfo(p,now).state==="upcoming");
+  $("#nextName").textContent=next?next.name:"No exact upcoming deadline";
+  $("#nextCount").textContent=next?countdown(deadlineInfo(next,now)):"—";
+}
+async function load(){
+  try{
+    const r=await fetch(`data/funding-programs.json?v=${Date.now()}`,{cache:"no-store"});if(!r.ok)throw new Error(r.status);
+    const p=await r.json();programs=p.programs||[];meta=p.meta||{};
+    $("#total").textContent=programs.length;$("#checked").textContent=meta.lastChecked||"—";
+    const types=[...new Set(programs.map(x=>x.programType))].sort();types.forEach(x=>$("#typeSelect").insertAdjacentHTML("beforeend",`<option>${x}</option>`));
+    const regs=[...new Set(programs.map(x=>x.eligibilityRegion))].sort();regs.forEach(x=>$("#regionSelect").insertAdjacentHTML("beforeend",`<option>${x}</option>`));
+    render();
+  }catch(e){$("#list").innerHTML=`<div class="error">Could not load funding data. On GitHub Pages this file loads automatically. For local preview, run <code>python3 -m http.server 8000</code>.</div>`}
+}
+document.querySelectorAll("button[data-filter]").forEach(b=>b.addEventListener("click",()=>{active=b.dataset.filter;document.querySelectorAll("button[data-filter]").forEach(x=>x.classList.toggle("active",x===b));render()}));
+["search","typeSelect","regionSelect","paperSelect"].forEach(id=>$("#"+id).addEventListener(id==="search"?"input":"change",render));
+load();setInterval(render,1000);
+</script>
+</body></html>

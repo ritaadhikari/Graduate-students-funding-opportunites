@@ -1,0 +1,877 @@
+{
+  "meta": {
+    "title": "ML Theory Deadline Tracker",
+    "ranking": "ICORE 2026",
+    "lastChecked": "2026-09-10",
+    "automation": "GitHub Actions checks official venue pages daily.",
+    "warning": "Automatic updates are conservative. Always verify the official page before submitting."
+  },
+  "venues": [
+    {
+      "name": "ICLR 2027",
+      "longName": "International Conference on Learning Representations",
+      "rank": "A*",
+      "fit": "ML / theory",
+      "abstractDeadline": "2026-09-18T23:59:00-12:00",
+      "paperDeadline": "2026-09-25T23:59:00-12:00",
+      "timeZone": "Etc/GMT+12",
+      "timezoneLabel": "AoE",
+      "official": "https://iclr.cc/Conferences/2027/Dates",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/2273/",
+      "note": "Both deadlines are Anywhere on Earth (UTC−12).",
+      "id": "iclr-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://iclr.cc/Conferences/2027/Dates",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "paper submission deadline",
+          "paper submission"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract submission"
+        ],
+        "contextTerms": [],
+        "fallbackTimeZone": "Etc/GMT+12",
+        "fallbackTimezoneLabel": "AoE"
+      }
+    },
+    {
+      "name": "AISTATS 2027",
+      "longName": "Artificial Intelligence and Statistics",
+      "rank": "A",
+      "fit": "ML / theory",
+      "abstractDeadline": "2026-09-29T23:59:00-12:00",
+      "paperDeadline": "2026-10-06T23:59:00-12:00",
+      "timeZone": "Etc/GMT+12",
+      "timezoneLabel": "AoE",
+      "official": "https://virtual.aistats.org/Conferences/2027/SubmissionFAQ",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/913/",
+      "note": "Abstract submission is required; all deadlines are AoE.",
+      "id": "aistats-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://virtual.aistats.org/Conferences/2027/SubmissionFAQ",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "paper submission deadline",
+          "full paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline"
+        ],
+        "contextTerms": [],
+        "fallbackTimeZone": "Etc/GMT+12",
+        "fallbackTimezoneLabel": "AoE"
+      }
+    },
+    {
+      "name": "COLT 2027",
+      "longName": "Conference on Learning Theory",
+      "rank": "A*",
+      "fit": "Theory-first",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "official": "https://learningtheory.org/colt2027/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/124/",
+      "note": "Official 2027 page currently lists the submission deadline as TBD.",
+      "id": "colt-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://learningtheory.org/colt2027/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": []
+      }
+    },
+    {
+      "name": "ICML 2027",
+      "longName": "International Conference on Machine Learning",
+      "rank": "A*",
+      "fit": "ML / theory",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "official": "https://icml.cc/Conferences/FutureMeetings",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/1121/",
+      "note": "2027 meeting is announced; paper/abstract deadlines are not yet posted.",
+      "id": "icml-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://icml.cc/Conferences/FutureMeetings",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": []
+      }
+    },
+    {
+      "name": "NeurIPS 2027",
+      "longName": "Neural Information Processing Systems",
+      "rank": "A*",
+      "fit": "ML / theory",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "official": "https://neurips.cc/Conferences/FutureMeetings",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/98/",
+      "note": "2027 is announced for Europe; submission deadlines are not yet posted.",
+      "id": "neurips-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://neurips.cc/Conferences/FutureMeetings",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": []
+      }
+    },
+    {
+      "name": "KDD 2027 · Cycle 2",
+      "longName": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "rank": "A*",
+      "fit": "Broader ML",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "official": "https://kdd2027.kdd.org/frequently-asked-questions/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/26/",
+      "note": "Official FAQ confirms a February 2027 second cycle; exact dates are still TBC.",
+      "id": "kdd-2027-cycle-2",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://kdd2027.kdd.org/frequently-asked-questions/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "paper submission deadline",
+          "paper submission"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract submission"
+        ],
+        "contextTerms": [
+          "cycle 2",
+          "second cycle"
+        ]
+      }
+    },
+    {
+      "name": "IJCAI 2027",
+      "longName": "International Joint Conference on Artificial Intelligence",
+      "rank": "A*",
+      "fit": "Broader AI / ML",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "official": "https://www.ijcai.org/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/1313/",
+      "note": "2027 conference dates are announced; submission deadlines are not yet posted.",
+      "id": "ijcai-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://www.ijcai.org/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": []
+      }
+    },
+    {
+      "name": "UAI 2027",
+      "longName": "Conference on Uncertainty in Artificial Intelligence",
+      "rank": "A",
+      "fit": "ML / theory",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "official": "https://www.auai.org/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/346/",
+      "note": "Next 2027 call/deadline was not yet available on the official site at last check.",
+      "id": "uai-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://www.auai.org/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": []
+      }
+    },
+    {
+      "name": "ECML PKDD 2027",
+      "longName": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+      "rank": "A",
+      "fit": "Broader ML",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "official": "https://ecmlpkdd.org/2027/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/491/",
+      "note": "2027 conference page is live, but research-track submission dates are not yet posted.",
+      "id": "ecml-pkdd-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://ecmlpkdd.org/2027/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": []
+      }
+    },
+    {
+      "name": "ALT 2027",
+      "longName": "International Conference on Algorithmic Learning Theory",
+      "rank": "B",
+      "fit": "Theory-first",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-10-12T23:59:00-12:00",
+      "timeZone": "Etc/GMT+12",
+      "timezoneLabel": "AoE",
+      "official": "https://algorithmiclearningtheory.org/alt2027/submission-instructions/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/?by=all&search=ALT",
+      "note": "Excellent fit for theoretical and algorithmic ML. Paper deadline is Oct 12, 2026, 11:59 p.m. AoE; no separate abstract deadline is listed.",
+      "id": "alt-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://algorithmiclearningtheory.org/alt2027/submission-instructions/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": [],
+        "fallbackTimeZone": "Etc/GMT+12",
+        "fallbackTimezoneLabel": "AoE"
+      }
+    },
+    {
+      "name": "ESANN 2027",
+      "longName": "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning",
+      "rank": "B",
+      "fit": "ML",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-11-18T23:59:00+01:00",
+      "timeZone": "Europe/Brussels",
+      "timezoneLabel": "CET*",
+      "official": "https://www.esann.org/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/?by=all&search=ESANN",
+      "note": "Official site lists Nov 18, 2026 as the submission date but does not currently state a submission time; countdown uses 23:59 Brussels time (*) for ordering.",
+      "id": "esann-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://www.esann.org/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": [],
+        "fallbackTimeZone": "Europe/Brussels",
+        "fallbackTimezoneLabel": "CET*"
+      }
+    },
+    {
+      "name": "IJCNN 2027",
+      "longName": "IEEE International Joint Conference on Neural Networks",
+      "rank": "B",
+      "fit": "ML / neural nets",
+      "abstractDeadline": null,
+      "paperDeadline": "2027-01-31T23:59:00+02:00",
+      "timeZone": "Africa/Johannesburg",
+      "timezoneLabel": "SAST*",
+      "official": "https://ijcnn.org/2027/authors/call-for-papers",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/?by=all&search=IJCNN",
+      "note": "Official call lists Jan 31, 2027 for regular papers but does not currently state a submission time; countdown uses 23:59 Cape Town time (*) for ordering.",
+      "id": "ijcnn-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://ijcnn.org/2027/authors/call-for-papers",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": [],
+        "fallbackTimeZone": "Africa/Johannesburg",
+        "fallbackTimezoneLabel": "SAST*"
+      }
+    },
+    {
+      "name": "PAKDD 2027",
+      "longName": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+      "rank": "B",
+      "fit": "Data mining / ML",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "official": "https://pakdd.org/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/1667/",
+      "note": "ICORE 2026 rank B. The next exact research-paper deadline is kept TBD until it is confirmed on the official conference page.",
+      "id": "pakdd-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://pakdd.org/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": []
+      }
+    },
+    {
+      "name": "Discovery Science 2027",
+      "longName": "International Conference on Discovery Science",
+      "rank": "B",
+      "fit": "ML / discovery",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "official": "https://ds2026.github.io/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/?by=all&search=Discovery%20Science",
+      "note": "ICORE 2026 rank B. 2027 submission deadline is TBD until an official 2027 call is available.",
+      "id": "discovery-science-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://ds2026.github.io/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": []
+      }
+    },
+    {
+      "name": "ICONIP 2027",
+      "longName": "International Conference on Neural Information Processing",
+      "rank": "B",
+      "fit": "ML / neural computation",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "official": "https://www.apnns.org/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/?by=all&search=ICONIP",
+      "note": "ICORE 2026 rank B. 2027 paper deadline is TBD until an official call is posted.",
+      "id": "iconip-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://www.apnns.org/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": []
+      }
+    },
+    {
+      "name": "STACS 2027",
+      "longName": "International Symposium on Theoretical Aspects of Computer Science",
+      "rank": "A",
+      "fit": "Theory / algorithms",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-10-11T23:59:00-12:00",
+      "timeZone": "Etc/GMT+12",
+      "timezoneLabel": "AoE",
+      "official": "https://stacs2027.uni-goettingen.de/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/?by=all&search=STACS",
+      "note": "Track A covers algorithms, data structures, and complexity. Full-paper deadline: Oct 11, 2026, 23:59 AoE.",
+      "id": "stacs-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://stacs2027.uni-goettingen.de/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": [],
+        "fallbackTimeZone": "Etc/GMT+12",
+        "fallbackTimezoneLabel": "AoE"
+      }
+    },
+    {
+      "name": "FOCS 2027",
+      "longName": "IEEE Symposium on Foundations of Computer Science",
+      "rank": "A*",
+      "fit": "Theory-first",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "official": "https://focs.computer.org/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/?by=all&search=FOCS",
+      "note": "Flagship theory venue; FOCS explicitly includes computational learning theory and foundations of machine learning. The 2027 submission deadline is not yet posted.",
+      "id": "focs-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://focs.computer.org/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": []
+      }
+    },
+    {
+      "name": "STOC 2027",
+      "longName": "ACM Symposium on Theory of Computing",
+      "rank": "A*",
+      "fit": "Theory-first",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "official": "https://acm-stoc.org/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/?by=all&search=STOC",
+      "note": "Flagship theory venue covering computational learning theory, optimization, privacy, economics and computation, and related foundations. 2027 deadline is TBD.",
+      "id": "stoc-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://acm-stoc.org/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": []
+      }
+    },
+    {
+      "name": "SODA 2027",
+      "longName": "ACM-SIAM Symposium on Discrete Algorithms",
+      "rank": "A*",
+      "fit": "Algorithms / ML theory",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-07-09T23:59:00-12:00",
+      "timeZone": "Etc/GMT+12",
+      "timezoneLabel": "AoE",
+      "official": "https://www.siam.org/conferences-events/siam-conferences/soda27/submissions/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/80/",
+      "note": "Major algorithms venue that can fit theoretical ML/AI work with strong algorithmic content. The SODA 2027 submission deadline has passed.",
+      "id": "soda-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://www.siam.org/conferences-events/siam-conferences/soda27/submissions/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": [],
+        "fallbackTimeZone": "Etc/GMT+12",
+        "fallbackTimezoneLabel": "AoE"
+      }
+    },
+    {
+      "name": "ITCS 2027",
+      "longName": "Innovations in Theoretical Computer Science",
+      "rank": "A",
+      "fit": "Theory-first",
+      "abstractDeadline": "2026-09-02T16:59:00-07:00",
+      "paperDeadline": "2026-09-04T16:59:00-07:00",
+      "timeZone": "America/Los_Angeles",
+      "timezoneLabel": "PDT",
+      "official": "https://itcs-conf.org/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/2176/",
+      "note": "Broad theory venue for innovative conceptual or methodological work. The 2027 abstract and paper deadlines have passed.",
+      "id": "itcs-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://itcs-conf.org/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": [],
+        "fallbackTimeZone": "America/Los_Angeles",
+        "fallbackTimezoneLabel": "PDT"
+      }
+    },
+    {
+      "name": "ICALP 2027 · Track A",
+      "longName": "International Colloquium on Automata, Languages, and Programming",
+      "rank": "A*",
+      "fit": "Theory / algorithms",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "official": "https://eatcs.org/index.php/future-icalps",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/?by=all&search=ICALP",
+      "note": "For ML-theory work, Track A is the more relevant algorithms/complexity track. Its 2027 deadline is planned for February 2027 but the exact date is still TBD.",
+      "id": "icalp-2027-track-a",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://eatcs.org/index.php/future-icalps",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "submission deadline",
+          "paper submission deadline"
+        ],
+        "abstractLabels": [],
+        "contextTerms": [
+          "track a"
+        ]
+      }
+    },
+    {
+      "name": "EC 2027",
+      "longName": "ACM Conference on Economics and Computation",
+      "rank": "A*",
+      "fit": "Game theory / online learning",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "official": "https://sigecom.org/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/14/",
+      "note": "Strong fit for online learning, algorithmic game theory, mechanism design, fairness, markets, and learning in strategic settings. EC 2027 dates/deadlines are not yet announced.",
+      "id": "ec-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://sigecom.org/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": []
+      }
+    },
+    {
+      "name": "APPROX/RANDOM 2027",
+      "longName": "Approximation Algorithms / Randomization and Computation",
+      "rank": "A",
+      "fit": "Randomized algorithms / theory",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "official": "https://approxconference.com/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/1451/",
+      "note": "Relevant for randomized algorithms, approximation, online/streaming algorithms, pseudorandomness, and related learning-theory techniques. The 2027 deadline is TBD.",
+      "id": "approx-random-2027",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://approxconference.com/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full-paper submission deadline",
+          "paper submission deadline",
+          "paper deadline",
+          "submission deadline",
+          "regular paper submission",
+          "research paper submission deadline"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract registration deadline",
+          "abstract deadline",
+          "paper registration deadline"
+        ],
+        "contextTerms": []
+      }
+    },
+    {
+      "name": "AAAI-27",
+      "longName": "AAAI Conference on Artificial Intelligence · Main Technical Track",
+      "rank": "A*",
+      "fit": "Broader AI / ML",
+      "abstractDeadline": "2026-07-21T23:59:00-12:00",
+      "paperDeadline": "2026-07-28T23:59:00-12:00",
+      "timeZone": "Etc/GMT+12",
+      "timezoneLabel": "AoE",
+      "official": "https://aaai.org/conference/aaai/aaai-27/submission-instructions/",
+      "rankSource": "https://portal.core.edu.au/conf-ranks/?by=all&search=AAAI",
+      "note": "AAAI-27 main-track submission has passed; the next main-track deadline is not yet announced.",
+      "id": "aaai-27",
+      "autoUpdate": {
+        "enabled": true,
+        "page": "https://aaai.org/conference/aaai/aaai-27/submission-instructions/",
+        "allowedYears": [
+          2026,
+          2027
+        ],
+        "paperLabels": [
+          "full paper submission deadline",
+          "full paper submission"
+        ],
+        "abstractLabels": [
+          "abstract submission deadline",
+          "abstract submission"
+        ],
+        "contextTerms": [],
+        "fallbackTimeZone": "Etc/GMT+12",
+        "fallbackTimezoneLabel": "AoE"
+      }
+    }
+  ]
+}

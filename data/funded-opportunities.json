@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "European Conference Funding for Graduate Students",
+    "lastChecked": "2026-09-12",
+    "scope": "Only actual conferences in Europe with verified graduate-student funding routes where an accepted paper is not mandatory.",
+    "disclaimer": "This is a verified tracker, not a guarantee of funding. Calls change each year; always confirm the current official page."
+  },
+  "opportunities": [
+    {
+      "id": "ijcai-ecai-2026",
+      "name": "IJCAI–ECAI 2026",
+      "type": "Conference",
+      "field": "Artificial Intelligence / Machine Learning",
+      "location": "Bremen, Germany",
+      "country": "Germany",
+      "eventStart": "2026-08-15",
+      "eventEnd": "2026-08-21",
+      "fundingDeadline": "2026-06-04T23:59:00-12:00",
+      "fundingLevel": "Partial / reimbursement",
+      "amount": "Case-by-case IJCAI–AIJ travel grant; EurAI also offered €400 grants to eligible student members",
+      "coverage": [
+        "Travel/attendance expenses reimbursed up to the awarded amount",
+        "Eligible expenses must be documented with receipts",
+        "Additional EurAI support was available to qualifying student members"
+      ],
+      "notCovered": [
+        "Award amount is not guaranteed in advance",
+        "Applicant is asked to seek department/local AI-society support first"
+      ],
+      "graduateEligibility": "Graduate students are eligible under the conference's general student grant program; a support letter from the advisor/head of department is required for students.",
+      "paperRequirement": "NO accepted paper is required. If applications exceed available funds, applicants with an accepted technical paper receive preference, followed by other active conference participants.",
+      "acceptedPaperRequired": false,
+      "international": true,
+      "official": "https://2026.ijcai.org/",
+      "fundingPage": "https://2026.ijcai.org/call-for-grant-applications/",
+      "status": "past",
+      "verified": "2026-09-12",
+      "recurWatch": "Future European IJCAI/ECAI editions should be checked when announced.",
+      "note": "Premier international AI conference. 2026 was held in Germany."
+    },
+    {
+      "id": "ecml-pkdd-2026",
+      "name": "ECML PKDD 2026",
+      "type": "Conference",
+      "field": "Machine Learning / Data Mining",
+      "location": "Naples, Italy",
+      "country": "Italy",
+      "eventStart": "2026-09-07",
+      "eventEnd": "2026-09-11",
+      "fundingDeadline": null,
+      "fundingLevel": "Up to €1,000",
+      "amount": "Maximum financial contribution: €1,000 per student",
+      "coverage": [
+        "Financial contribution toward conference participation",
+        "Award may be lower than the requested amount depending on budget and circumstances"
+      ],
+      "notCovered": [
+        "The public support page does not specify an exact expense-by-expense coverage list"
+      ],
+      "graduateEligibility": "The conference explicitly supports students who may otherwise be unable to attend. Graduate students are included in this student category.",
+      "paperRequirement": "The support page does NOT state that an accepted paper is required. Scientific-program participation is one evaluation factor, together with academic motivation, financial need, geographical diversity, and application quality.",
+      "acceptedPaperRequired": false,
+      "international": true,
+      "official": "https://ecmlpkdd.org/2026/",
+      "fundingPage": "https://ecmlpkdd.org/2026/scholarship/",
+      "status": "past",
+      "verified": "2026-09-12",
+      "recurWatch": "ECML PKDD 2027 is announced for Eindhoven, Netherlands. Watch for the 2027 student-support call.",
+      "note": "Flagship European machine-learning and data-mining conference."
+    },
+    {
+      "id": "ecml-pkdd-2027-watch",
+      "name": "ECML PKDD 2027 — Funding Watch",
+      "type": "Conference",
+      "field": "Machine Learning / Data Mining",
+      "location": "Eindhoven, Netherlands",
+      "country": "Netherlands",
+      "eventStart": "2027-09-01",
+      "eventEnd": null,
+      "fundingDeadline": null,
+      "fundingLevel": "TBD — recurring support watch",
+      "amount": "TBD",
+      "coverage": [
+        "2027 student-support details are not yet posted",
+        "The 2026 edition offered up to €1,000 per student"
+      ],
+      "notCovered": [],
+      "graduateEligibility": "2027 eligibility is TBD. The 2026 program supported students generally, which included graduate students.",
+      "paperRequirement": "2027 rule is TBD. In 2026, accepted-paper authorship was not stated as a requirement.",
+      "acceptedPaperRequired": false,
+      "international": true,
+      "official": "https://ecmlpkdd.org/2027/",
+      "fundingPage": "https://ecmlpkdd.org/2027/",
+      "status": "watch",
+      "verified": "2026-09-12",
+      "recurWatch": "Automatic tracker should look for a 2027 scholarship/student-support page and application deadline.",
+      "note": "2027 conference is officially announced in the Netherlands; funding call has not yet been posted."
+    },
+    {
+      "id": "aixia-2026",
+      "name": "AIxIA 2026",
+      "type": "Conference",
+      "field": "Artificial Intelligence / Machine Learning",
+      "location": "Perugia, Italy",
+      "country": "Italy",
+      "eventStart": "2026-10-06",
+      "eventEnd": "2026-10-09",
+      "fundingDeadline": "2026-07-05",
+      "fundingLevel": "€400 registration support",
+      "amount": "€400 discount on the conference registration fee",
+      "coverage": [
+        "€400 of the registration fee"
+      ],
+      "notCovered": [
+        "Travel",
+        "Accommodation",
+        "AIxIA membership fee",
+        "Any remaining registration balance"
+      ],
+      "graduateEligibility": "Master's and PhD students are explicitly eligible; applicants must also be AIxIA members for the second half of 2026.",
+      "paperRequirement": "NO accepted paper is required. Accepted Doctoral Consortium, conference, or workshop contributions are evaluation criteria, but they are not listed as eligibility requirements.",
+      "acceptedPaperRequired": false,
+      "international": true,
+      "official": "https://aixia2026.unipg.it/",
+      "fundingPage": "https://aixia2026.unipg.it/call/grants.html",
+      "status": "past_deadline_future_event",
+      "verified": "2026-09-12",
+      "recurWatch": "Watch future AIxIA editions for student-grant calls.",
+      "note": "Italian AI conference; grant deadline has passed although the conference is still upcoming."
+    },
+    {
+      "id": "pasc-2026",
+      "name": "PASC26",
+      "type": "Conference",
+      "field": "Scientific Computing / HPC / ML-adjacent",
+      "location": "Switzerland",
+      "country": "Switzerland",
+      "eventStart": "2026-06-29",
+      "eventEnd": "2026-07-01",
+      "fundingDeadline": "2026-03-30",
+      "fundingLevel": "Travel + registration",
+      "amount": "Up to $800 from within Europe or $1,600 from another continent, plus conference registration",
+      "coverage": [
+        "Conference registration",
+        "Travel reimbursement up to $800 for students traveling from within Europe",
+        "Travel reimbursement up to $1,600 for students traveling from another continent",
+        "Conference mentor"
+      ],
+      "notCovered": [
+        "Expenses above the travel-grant cap"
+      ],
+      "graduateEligibility": "Graduate students enrolled at an accredited university in any country are eligible; SIGHPC membership is required.",
+      "paperRequirement": "NO accepted contribution is required. PASC/SIGHPC states that students who submitted a contribution are favored, but submission is not a requirement of the award.",
+      "acceptedPaperRequired": false,
+      "international": true,
+      "official": "https://pasc-conference.org/",
+      "fundingPage": "https://pasc-conference.org/editions/pasc26/about/student-travel-grants/",
+      "status": "past",
+      "verified": "2026-09-12",
+      "recurWatch": "PASC student travel grants recur; watch the next European edition.",
+      "note": "Not a pure ML conference, but directly relevant to ML/HPC/scientific-computing research."
+    }
+  ]
+}
