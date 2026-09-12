@@ -5,7 +5,8 @@
     "verifiedPrograms": 44,
     "scope": "Graduate-student-friendly conference grants, umbrella travel grants, and research programs that can fund conference/research travel. Accepted-paper-only grants are excluded from the default dataset.",
     "method": "Official-source verification + conservative automatic deadline updates + separate discovery queue for new candidates.",
-    "disclaimer": "No public registry can guarantee every program in every country. This tracker is designed to expand continuously while keeping verified and unverified information separate."
+    "disclaimer": "No public registry can guarantee every program in every country. This tracker is designed to expand continuously while keeping verified and unverified information separate.",
+    "lastRunSummary": "Checked 20 official program pages."
   },
   "programs": [
     {
@@ -620,8 +621,8 @@
       "eligibilityRegion": "ELLIS network + limited external applicants",
       "studentLevel": "PhD / Postdoc",
       "deadline": null,
-      "deadlineDateOnly": null,
-      "deadlineType": "annual-watch",
+      "deadlineDateOnly": "2026-04-26",
+      "deadlineType": "date-only",
       "amount": "Varies",
       "coverage": [
         "Travel",
@@ -658,8 +659,8 @@
       "eligibilityRegion": "Africa / Australia-NZ / Canada-US / East Asia / Europe / India / Latin America / Southeast Asia",
       "studentLevel": "PhD",
       "deadline": null,
-      "deadlineDateOnly": null,
-      "deadlineType": "annual-watch",
+      "deadlineDateOnly": "2026-03-05",
+      "deadlineType": "date-only",
       "amount": "Region-specific; includes research/travel funding",
       "coverage": [
         "Stipend/research support",

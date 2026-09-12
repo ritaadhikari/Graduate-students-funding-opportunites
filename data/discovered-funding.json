@@ -1,6 +1,232 @@
 {
   "meta": {
-    "lastRun": null
+    "lastRun": "2026-09-12T15:30:11.348252+00:00",
+    "count": 28
   },
-  "candidates": []
+  "candidates": [
+    {
+      "title": "2023 - 2002",
+      "url": "https://research.nvidia.com/graduate-fellowships/archive",
+      "foundFrom": "NVIDIA Graduate Fellowships",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "2024",
+      "url": "https://research.nvidia.com/graduate-fellowships/2024",
+      "foundFrom": "NVIDIA Graduate Fellowships",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "2025",
+      "url": "https://research.nvidia.com/graduate-fellowships/2025",
+      "foundFrom": "NVIDIA Graduate Fellowships",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "2026",
+      "url": "https://research.nvidia.com/graduate-fellowships/2026",
+      "foundFrom": "NVIDIA Graduate Fellowships",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "Above and Beyond Project",
+      "url": "https://women.acm.org/scholarships/above-and-beyond/",
+      "foundFrom": "ACM-W Scholarships",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "ACM-W Scholarship Committee",
+      "url": "https://women.acm.org/scholarships/scholarship-contacts/",
+      "foundFrom": "ACM-W Scholarships",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "ACM-W website",
+      "url": "http://women.acm.org/scholarships",
+      "foundFrom": "SIGHPC Travel Grants",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "Apply now ➜",
+      "url": "https://acm-w.acm.org/scholarA.cfm",
+      "foundFrom": "ACM-W Scholarships",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "award recipients",
+      "url": "https://sigchi.org/resources/gary-marsden-travel-awards/recipients/",
+      "foundFrom": "SIGCHI Gary Marsden Awards",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "call for applications",
+      "url": "https://sigchi.submittable.com/submit/248684/gary-marsden-travel-awards",
+      "foundFrom": "SIGCHI Gary Marsden Awards",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "Early Career Travel Grant",
+      "url": "https://submissions.sighpc.org/",
+      "foundFrom": "SIGHPC Travel Grants",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "ELIAS Mobility Program",
+      "url": "https://elias-ai.eu/mobility-program/",
+      "foundFrom": "ELLIS Mobility Programs",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "ELLIS Fellow, Scholar",
+      "url": "https://ellis.eu/members/fellows",
+      "foundFrom": "ELLIS Mobility Programs",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "ELSA mobility grant",
+      "url": "https://elsa-ai.eu/overview/",
+      "foundFrom": "ELLIS Mobility Programs",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "Fellowships",
+      "url": "https://www.sighpc.org/opportunities/fellowships",
+      "foundFrom": "SIGHPC Travel Grants",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "Financial Assistance Application",
+      "url": "https://neurips.cc/Surveys/86",
+      "foundFrom": "NeurIPS Financial Assistance",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "Funding Opportunities for Promoting AI Research",
+      "url": "https://www.ijcai.org/aijd",
+      "foundFrom": "IJCAI",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "https://pasc26.pasc-conference.org/about/student-travel-grants/",
+      "url": "https://pasc26.pasc-conference.org/about/student-travel-grants/",
+      "foundFrom": "SIGHPC Travel Grants",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "https://ppopp26.sigplan.org/attending/travel-support",
+      "url": "https://ppopp26.sigplan.org/attending/travel-support",
+      "foundFrom": "SIGHPC Travel Grants",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "Learn more about the ELLIOT Mobility Initiative",
+      "url": "https://www.elliot-ai.eu/mobility-programme",
+      "foundFrom": "ELLIS Mobility Programs",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "Online Student Grant Application Form",
+      "url": "https://aisb.org.uk/new_site/online-student-grant-application-form/",
+      "foundFrom": "AISB Student Grants",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "past recipients of SIGHPC travel grants",
+      "url": "https://www.sighpc.org/opportunities/travel-grants/travel-grant-recipients",
+      "foundFrom": "SIGHPC Travel Grants",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "Research-oriented Master’s scholarship for PhD candidates",
+      "url": "https://www.tu-darmstadt.de/forschen/forschungsfelder/information_intelligence_ii/eliza/eliza.en.jsp",
+      "foundFrom": "ELLIS Mobility Programs",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "Scholar Cohort 2026",
+      "url": "https://women.acm.org/scholar-cohort-2026/",
+      "foundFrom": "ACM-W Scholarships",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "Scholarship Winners",
+      "url": "https://women.acm.org/scholarships/scholarship-winners/",
+      "foundFrom": "ACM-W Scholarships",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "Scholarship – FAQs",
+      "url": "https://women.acm.org/scholarships/scholarship-faqs/",
+      "foundFrom": "ACM-W Scholarships",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "Supporting academics working to create positive societal impact with technology Google's T&S Research team collaborates with experts across disciplines and affected populations to mitigate tech risks and drive positive societal outcomes. In 2023, Google provided unrestricted grants to support diverse research efforts related to Trust & Safety in technology. Learn more",
+      "url": "https://blog.google/technology/research/our-first-trust-safety-research-awards-grantees/",
+      "foundFrom": "Google Research Programs",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    },
+    {
+      "title": "Travel Guidance page",
+      "url": "https://www.sighpc.org/opportunities/travel-grants/travel-grant-guidance",
+      "foundFrom": "SIGHPC Travel Grants",
+      "firstSeen": "2026-09-12",
+      "status": "needs-review",
+      "lastSeen": "2026-09-12"
+    }
+  ]
 }

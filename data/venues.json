@@ -2,9 +2,10 @@
   "meta": {
     "title": "ML Theory Deadline Tracker",
     "ranking": "ICORE 2026",
-    "lastChecked": "2026-09-10",
+    "lastChecked": "2026-09-12",
     "automation": "GitHub Actions checks official venue pages daily.",
-    "warning": "Automatic updates are conservative. Always verify the official page before submitting."
+    "warning": "Automatic updates are conservative. Always verify the official page before submitting.",
+    "lastRunSummary": "Checked 21 official pages; conservative parser."
   },
   "venues": [
     {
@@ -594,7 +595,7 @@
       "rank": "A*",
       "fit": "Theory-first",
       "abstractDeadline": null,
-      "paperDeadline": null,
+      "paperDeadline": "2026-04-01T17:00:00-04:00",
       "official": "https://focs.computer.org/",
       "rankSource": "https://portal.core.edu.au/conf-ranks/?by=all&search=FOCS",
       "note": "Flagship theory venue; FOCS explicitly includes computational learning theory and foundations of machine learning. The 2027 submission deadline is not yet posted.",
@@ -706,7 +707,7 @@
       "rank": "A",
       "fit": "Theory-first",
       "abstractDeadline": "2026-09-02T16:59:00-07:00",
-      "paperDeadline": "2026-09-04T16:59:00-07:00",
+      "paperDeadline": "2026-09-02T16:59:00-07:00",
       "timeZone": "America/Los_Angeles",
       "timezoneLabel": "PDT",
       "official": "https://itcs-conf.org/",
@@ -871,7 +872,8 @@
         "contextTerms": [],
         "fallbackTimeZone": "Etc/GMT+12",
         "fallbackTimezoneLabel": "AoE"
-      }
+      },
+      "abstractDeadlineDateOnly": "2026-07-21"
     }
   ]
 }
