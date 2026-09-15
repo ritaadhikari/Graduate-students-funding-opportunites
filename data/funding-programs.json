@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Global Graduate ML/AI Funding Tracker",
-    "lastChecked": "2026-09-14",
+    "lastChecked": "2026-09-15",
     "verifiedPrograms": 44,
     "scope": "Graduate-student-friendly conference grants, umbrella travel grants, and research programs that can fund conference/research travel. Accepted-paper-only grants are excluded from the default dataset.",
     "method": "Official-source verification + conservative automatic deadline updates + separate discovery queue for new candidates.",
