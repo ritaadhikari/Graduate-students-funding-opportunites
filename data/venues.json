@@ -2,7 +2,7 @@
   "meta": {
     "title": "ML Theory Deadline Tracker",
     "ranking": "ICORE 2026",
-    "lastChecked": "2026-09-29",
+    "lastChecked": "2026-09-30",
     "automation": "GitHub Actions checks official venue pages daily.",
     "warning": "Automatic updates are conservative. Always verify the official page before submitting.",
     "lastRunSummary": "Checked 21 official pages; conservative parser."
@@ -71,7 +71,8 @@
         "contextTerms": [],
         "fallbackTimeZone": "Etc/GMT+12",
         "fallbackTimezoneLabel": "AoE"
-      }
+      },
+      "abstractDeadlineDateOnly": "2026-10-06"
     },
     {
       "name": "COLT 2027",
