@@ -2,10 +2,10 @@
   "meta": {
     "title": "ML Theory Deadline Tracker",
     "ranking": "ICORE 2026",
-    "lastChecked": "2026-10-26",
+    "lastChecked": "2026-10-27",
     "automation": "GitHub Actions checks official venue pages daily.",
     "warning": "Automatic updates are conservative. Always verify the official page before submitting.",
-    "lastRunSummary": "Checked 21 official pages; conservative parser."
+    "lastRunSummary": "Checked 22 official pages; conservative parser."
   },
   "venues": [
     {
